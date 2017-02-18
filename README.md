@@ -62,7 +62,7 @@ runtime实用详解「面试、工作」看我就 🐒 了 ^_^.
 
 
 坐下来 品一杯白开水，写的小样在下面 ~  
-![坐下来 品一杯白开水，写的小样在下面 ~](http://upload-images.jianshu.io/upload_images/2230763-eb2e0ec5b6d55fc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![坐下来 品一杯白开水，写的小样在下面 ~](http://upload-images.jianshu.io/upload_images/2230763-e3b33d46f171f721.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
