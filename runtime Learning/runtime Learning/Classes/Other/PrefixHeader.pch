@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  iOS--LN
+//
+//  Created by LN on 16/6/15.
+//  Copyright © 2016年 Learning point. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define kScreenSize           [[UIScreen mainScreen] bounds].size
+#define kScreenWidth          [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight         [[UIScreen mainScreen] bounds].size.height
+
+#import "SWRevealViewController.h"
+#import "SVProgressHUD.h"
+
+//#import "Masonry.h"
+//#import "UIImage+image.h"
+
+// username=520it pwd=520it
+
+#endif /* PrefixHeader_pch */
