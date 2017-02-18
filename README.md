@@ -14,8 +14,6 @@ runtime实用详解「面试、工作」看我就 🐒 了 ^_^.
 
 
 
-![ --> Star](http://upload-images.jianshu.io/upload_images/2230763-130b25511fa04547.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 
 ## directory【目录】
 
