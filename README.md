@@ -43,7 +43,7 @@ runtime实用详解「面试、工作」看我就 🐒 了 ^_^.
 
 - [白开水ln--简书 http://www.jianshu.com/p/19f280afcb24](http://www.jianshu.com/p/19f280afcb24)
 
-- [Plain boiled water--Blog https://custompbwaters.github.io](https://custompbwaters.github.io/2017/02/25/iOS%20NET/runtime实用详解「面试、工作」/)
+- [Plain boiled water--博客 https://custompbwaters.github.io](https://custompbwaters.github.io/2017/02/25/iOS%20NET/runtime实用详解「面试、工作」/)
 
 - [白开水ln--微信公众号](http://upload-images.jianshu.io/upload_images/2230763-e5768bda910361e5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
