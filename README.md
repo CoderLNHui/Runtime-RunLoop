@@ -17,22 +17,22 @@
 ## directory【目录】
 
 >目录：  
-1. runtime 概念  
-2. runtime 消息机制  
-3. runtime 方法调用流程「消息机制」  
-4. runtime 运行时常见作用  
-5. runtime 常用开发应用场景「工作掌握」  
-1.runtime 交换方法  
-2.runtime 给分类动态添加属性  
-3.runtime 字典转模型（Runtime 考虑三种情况实现）  
-6. runtime 运行时其它作用「面试熟悉」  
-1.动态添加方法  
-2.实现NSCoding的自动归档和解档  
-3.runtime 下Class的各项操作  
-4.runtime 几个参数概念  
-7. 什么是 method swizzling（俗称黑魔法）  
-8. 最后一道面试题的注解  
-9. 期待 & 后续
+>1. runtime 概念  
+>2. runtime 消息机制  
+>3. runtime 方法调用流程「消息机制」  
+>4. runtime 运行时常见作用  
+>5. runtime 常用开发应用场景「工作掌握」  
+>1.runtime 交换方法  
+>2.runtime 给分类动态添加属性  
+>3.runtime 字典转模型（Runtime 考虑三种情况实现）  
+>6. runtime 运行时其它作用「面试熟悉」  
+>1.动态添加方法  
+>2.实现NSCoding的自动归档和解档  
+>3.runtime 下Class的各项操作  
+>4.runtime 几个参数概念  
+>7. 什么是 method swizzling（俗称黑魔法）  
+>8. 最后一道面试题的注解  
+>9. 期待 & 后续
 
 
 
@@ -58,7 +58,7 @@
 - [「附上总结写的小样 Demo, 重要的部分代码中都有相应的注解和文字打印，运行程序可以很直观的表现」]()
 
 
-- [「博客原文」](https://custompbwaters.github.io/2017/02/25/iOS%20NET/runtime实用详解「面试、工作」/)、[简书原文](http://www.jianshu.com/p/19f280afcb24)，
+- [博客原文](https://custompbwaters.github.io/2017/02/25/iOS%20NET/runtime实用详解「面试、工作」/)、[简书原文](http://www.jianshu.com/p/19f280afcb24)，
 
 
 
