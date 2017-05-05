@@ -51,7 +51,7 @@
 
 
 
-![坐下来 品一杯白开水，写的小样在下面 ~](http://upload-images.jianshu.io/upload_images/2230763-e3b33d46f171f721.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![坐下来 品一杯白开水，写的小样在下面 ~](http://upload-images.jianshu.io/upload_images/2230763-5954375df964c0dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -63,10 +63,11 @@
 
 
 
-[**温馨提示：
-更多有关本文系统文件的属性和方法及常用功能代码案例，请移步这里
-→【iOS·UIKit & Foundation框架—Annotations & Category注解工具类 👀 **](https://github.com/CustomPBWaters/iOS-Apple-OfficialTranslation-SourceAnnotation) 
-[**→【iOS Apple官方译文框架源码注解】👀 **](https://github.com/CustomPBWaters/UIKit-Foundation-Framework-OpenSource)
+[**温馨提示：更多有关本文系统文件的属性和方法及常用功能代码案例，请移步这里**]
+
+[→【iOS·UIKit & Foundation框架—Annotations & Category注解工具类 👀 ](https://github.com/CustomPBWaters/iOS-Apple-OfficialTranslation-SourceAnnotation) 
+
+[→【iOS Apple官方译文框架源码注解】👀 ](https://github.com/CustomPBWaters/UIKit-Foundation-Framework-OpenSource)
 
 
 
