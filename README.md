@@ -62,6 +62,14 @@
 
 
 
+
+[**温馨提示：
+更多有关本文系统文件的属性和方法及常用功能代码案例，请移步这里
+→【iOS·UIKit & Foundation框架—Annotations & Category注解工具类 👀 **](https://github.com/CustomPBWaters/iOS-Apple-OfficialTranslation-SourceAnnotation) 
+[**→【iOS Apple官方译文框架源码注解】👀 **](https://github.com/CustomPBWaters/UIKit-Foundation-Framework-OpenSource)
+
+
+
 ## About me
 
 【我也是对所花费时间的一个总结】
