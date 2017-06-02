@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>attitudes_count</key>
+	<integer>1</integer>
+	<key>created_at</key>
+	<string>刚刚</string>
+	<key>source</key>
+	<string>来自简书ln</string>
+	<key>text</key>
+	<string>这个模块有太多的东西值得我们去学习推敲，方方面面都透露着作者以及众多贡献者的智慧，我们读起来也一定会受益良多</string>
+	<key>user</key>
+	<dict>
+		<key>mbrank</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>嘴巴笑抽筋了</string>
+		<key>vip</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
