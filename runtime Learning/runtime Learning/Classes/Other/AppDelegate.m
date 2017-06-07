@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  NetRequest
+// 【runtime】（https://github.com/CustomPBWaters）
 //
-//  Created by LN on 16/6/15.
-//  Copyright © 2016年 Learning point. All rights reserved.
+//  Created by 简书:白开水ln on 16/-/-.
+//  Copyright (c) 2016年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import "AppDelegate.h"
