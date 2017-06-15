@@ -2,8 +2,8 @@
 //  LNExchangeMethodViewController.h
 // 【runtime】（https://github.com/CustomPBWaters）
 //
-//  Created by 简书:白开水ln on 16/-/-.
-//  Copyright (c) 2016年（https://custompbwaters.github.io）All rights reserved.
+//  Created by 简书:白开水ln on 15/-/-.
+//  Copyright © 2015年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import "LNBaseViewController.h"
@@ -11,7 +11,7 @@
 @interface LNExchangeMethodViewController : LNBaseViewController
 
 /**
- *2.Runtime(交换方法)+
+ *2.Runtime(交换方法)
  应用场景：只要想修改系统的方法实现。
  
  需求:

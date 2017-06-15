@@ -2,8 +2,8 @@
 //  NSObject+Model.m
 // 【runtime】（https://github.com/CustomPBWaters）
 //
-//  Created by 简书:白开水ln on 16/-/-.
-//  Copyright (c) 2016年（https://custompbwaters.github.io）All rights reserved.
+//  Created by 简书:白开水ln on 15/-/-.
+//  Copyright © 2015年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import "NSObject+Model.h"
@@ -54,7 +54,7 @@
         // 根据成员属性名去字典中查找对应的value
         id value = dict[key];
         
-        // 【如果模型属性数量大于字典键值对数理，模型属性会被赋值为nil】
+        //【如果模型属性数量大于字典键值对数理，模型属性会被赋值为nil】
         // 而报错 (could not set nil as the value for the key age.)
         if (value) {
             // 给模型中属性赋值

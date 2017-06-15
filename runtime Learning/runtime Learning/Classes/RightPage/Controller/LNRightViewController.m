@@ -2,8 +2,8 @@
 //  LNRightViewController.m
 // 【runtime】（https://github.com/CustomPBWaters）
 //
-//  Created by 简书:白开水ln on 16/-/-.
-//  Copyright (c) 2016年（https://custompbwaters.github.io）All rights reserved.
+//  Created by 简书:白开水ln on 15/-/-.
+//  Copyright © 2015年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import "LNRightViewController.h"
@@ -43,7 +43,7 @@
 }
 
 - (void)initData {
-    _dataArray = [NSArray arrayWithObjects:@"我是右侧菜单", nil];
+    _dataArray = [NSArray arrayWithObjects:@"我是右侧菜单",@"runloop实战场景", nil];
 }
 
 #pragma mark - 代理方法
@@ -65,6 +65,10 @@
     UIViewController *viewController;
     switch (indexPath.row) {
         case 0:
+            viewController = [[LNMainViewController alloc] init];
+            break;
+        case 1:
+            //【runloop实战场景文章在我的简书，你的 「Star & Fork」 是对我最大的赞赏 ！】
             viewController = [[LNMainViewController alloc] init];
             break;
             

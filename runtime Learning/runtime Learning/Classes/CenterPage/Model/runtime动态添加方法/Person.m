@@ -2,8 +2,8 @@
 //  Person.m
 // 【runtime】（https://github.com/CustomPBWaters）
 //
-//  Created by 简书:白开水ln on 16/-/-.
-//  Copyright (c) 2016年（https://custompbwaters.github.io）All rights reserved.
+//  Created by 简书:白开水ln on 15/-/-.
+//  Copyright © 2015年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import "Person.h"
@@ -19,7 +19,6 @@
 void aaa(id self, SEL _cmd, NSNumber *meter) {
     
     NSLog(@"跑了%@ mi", meter);
-    
 }
 
 // 任何方法默认都有两个隐式参数,self,_cmd
@@ -40,7 +39,6 @@ void aaa(id self, SEL _cmd, NSNumber *meter) {
     }
     
     return [super resolveInstanceMethod:sel];
-    
 }
 
 
