@@ -51,27 +51,25 @@
 
 
 
-- [附上总结写的小样 Demo, 重要的部分代码中都有相应的注解和文字打印，运行程序可以很直观的表现，对你有帮助或是喜欢，你的 「Star & Fork」 是对我最大的赞赏 ！]()
+温馨提示：【真的不点进去阅读一下 ❓】
+[**更多有关本文系统文件的属性和方法及常用功能代码案例，请移步这里**]()
+
+[**→【iOS·UIKit & Foundation框架—Annotations & Category注解工具类 👀 **](https://github.com/CustomPBWaters/Framework-Annotations-Category)
+
+[**→【iOS Apple官方译文框架源码注解】👀 **](https://github.com/CustomPBWaters/Apple-OfficialTranslation-SourceAnnotation) 
 
 
-- [博客原文](https://custompbwaters.github.io/2017/02/25/iOS%20NET/runtime实用详解「面试、工作」/)、[简书原文](http://www.jianshu.com/p/19f280afcb24)，
+#### About me
+***
+
+【[博客](https://custompbwaters.github.io)】  【[简书](http://www.jianshu.com/u/fd745d76c816)】   【[掘金](https://juejin.im/post/5948b282da2f600067910186)】  【[公众号: 白开水ln](https://github.com/CustomPBWaters/Framework-Annotations-Category)】  【[译文 & 源码](https://github.com/CustomPBWaters/Apple-OfficialTranslation-SourceAnnotation)】   【[工具类](https://github.com/CustomPBWaters/Framework-Annotations-Category)】
 
 
+【白开水ln】：(我) 也是对【所花费时间的一个总结】！
 
+【白开水ln】：(我) 只是个【有思想的伐码猿🐒】加上【自己的学习总结☕️】写出来的文章 ！
 
-[**温馨提示：更多有关本文系统文件的属性和方法及常用功能代码案例，请移步这里**]
-
-[→【iOS·UIKit & Foundation框架—Annotations & Category注解工具类 👀 ](https://github.com/CustomPBWaters/UIKit-Foundation-Framework-OpenSource)
-
-[→【iOS Apple官方译文框架源码注解】👀 ](https://github.com/CustomPBWaters/iOS-Apple-OfficialTranslation-SourceAnnotation) 
-
-
-## About me
-
-【白开水ln】：(我) 也是对所花费时间的一个总结  
-
-【白开水ln】：(我) 只是个【有思想的伐码猿🐒】加上【自己的学习总☕️】写出来的文章。
-
+【白开水ln】：(我) 得文章【对你有新思想 或是 习惯】，你的 「Star & Fork」 是对我最大的赞赏 ！
 
 
 
