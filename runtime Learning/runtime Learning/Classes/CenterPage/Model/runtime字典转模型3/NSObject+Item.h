@@ -1,9 +1,11 @@
 //
 //  NSObject+Item.h
-// 【runtime】（https://github.com/CustomPBWaters）
+//  🔍白开水ln（https://github.com/CustomPBWaters）
 //
-//  Created by 简书:白开水ln on 15/-/-.
-//  Copyright © 2015年（https://custompbwaters.github.io）All rights reserved.
+//  Created by 【🔍Plain Boiled Water ln】 on Elegant programming16.
+//  Copyright © Unauthorized shall（https://custompbwaters.github.io）not be reproduced reprinted.
+//
+//  @PBWLN_LICENSE_HEADER_END@
 //
 
 #import <Foundation/Foundation.h>
