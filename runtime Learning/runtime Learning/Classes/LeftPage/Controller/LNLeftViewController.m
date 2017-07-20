@@ -3,7 +3,7 @@
 //  🔍白开水ln（https://github.com/CustomPBWaters）
 //
 //  Created by 【🔍Plain Boiled Water ln】 on Elegant programming16.
-//  Copyright © Unauthorized shall（https://custompbwaters.github.io）not be reproduced reprinted.
+//  Copyright © Unauthorized shall（https://githubidea.github.io）not be reproduced reprinted.
 //
 //  @PBWLN_LICENSE_HEADER_END@
 //
@@ -30,7 +30,7 @@
 - (UITableView *)tableView
 {
     if (!_tableView) {
-        self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+        self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, kScreenWidth, kScreenHeight - 20) style:UITableViewStylePlain];
         self.tableView.dataSource = self;
         self.tableView.delegate = self;
         self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
@@ -49,7 +49,7 @@
 }
 
 - (void)initData {
-    _dataArray = [NSArray arrayWithObjects:@"我是左侧菜单",@"runtime 字典转模型",@"runtime消息机制",@"runtime动态交换两个方法实现",@"runtime动态添加属性",@"runtime动态添加方法",@"Runtime字典转模型KVC实现",@"拦截并替换方法",@"实现NSCoding自动归档和解档", nil];
+    _dataArray = [NSArray arrayWithObjects:@"我是左侧菜单",@"☕️Objective-C -> runtime",@"runtime 字典转模型",@"runtime消息机制",@"runtime动态交换两个方法实现",@"runtime动态添加属性",@"runtime动态添加方法",@"Runtime字典转模型KVC实现",@"拦截并替换方法",@"实现NSCoding自动归档和解档",@"☕️Swift -> runtime（待）",@"runtime 字典转模型",@"runtime消息机制",@"runtime动态交换两个方法实现",@"runtime动态添加属性",@"runtime动态添加方法",@"Runtime字典转模型KVC实现",@"拦截并替换方法",@"实现NSCoding自动归档和解档", nil];
 }
 
 
@@ -70,24 +70,33 @@
     SWRevealViewController *revealVC = self.revealViewController;
     UIViewController *viewController;
     switch (indexPath.row) {
+        //Objective-C -> runtime 续更场景（欢迎后续下载阅读）
         case 0:
             viewController = [[LNMainViewController alloc] init];
             break;
-        case 1:
+
+            
+        case 2:
             viewController = [[RuntimeDictViewController alloc] init];
             break;
-        case 2:
+        case 3:
             viewController = [[LNMessageViewController alloc] init];
             break;
-        case 3:
+        case 4:
             viewController = [[LNExchangeMethodViewController alloc] init];
             break;
-        case 4:
+        case 5:
             viewController = [[LNAddAttributesViewController alloc] init];
             break;
-        case 5:
+        case 6:
             viewController = [[LNAddMethodsViewController alloc] init];
             break;
+     
+        //Swift -> runtime 待总结（欢迎后续下载阅读）
+        case 8:
+            viewController = [[LNMainViewController alloc] init];
+            break;
+            
             
         default:
             return;

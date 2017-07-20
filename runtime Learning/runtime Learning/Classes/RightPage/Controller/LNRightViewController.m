@@ -3,7 +3,7 @@
 //  🔍白开水ln（https://github.com/CustomPBWaters）
 //
 //  Created by 【🔍Plain Boiled Water ln】 on Elegant programming16.
-//  Copyright © Unauthorized shall（https://custompbwaters.github.io）not be reproduced reprinted.
+//  Copyright © Unauthorized shall（https://githubidea.github.io）not be reproduced reprinted.
 //
 //  @PBWLN_LICENSE_HEADER_END@
 //
@@ -24,7 +24,7 @@
 - (UITableView *)tableView
 {
     if (!_tableView) {
-        self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+        self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, kScreenWidth, kScreenHeight -20) style:UITableViewStylePlain];
         self.tableView.dataSource = self;
         self.tableView.delegate = self;
         self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
@@ -45,7 +45,7 @@
 }
 
 - (void)initData {
-    _dataArray = [NSArray arrayWithObjects:@"我是右侧菜单",@"runloop实战场景", nil];
+    _dataArray = [NSArray arrayWithObjects:@"我是右侧菜单",@"☕️Objective-C -> runloop（待）",@"runloop1",@"runloop2",@"runloop3",@"☕️Swift -> runloop（待）",@"runloop1",@"runloop2",@"runloop3", nil];
 }
 
 #pragma mark - 代理方法
@@ -66,15 +66,20 @@
     SWRevealViewController *revealVC = self.revealViewController;
     UIViewController *viewController;
     switch (indexPath.row) {
+        //Objective-C -> runloop 待总结（欢迎后续下载阅读）
         case 0:
             viewController = [[LNMainViewController alloc] init];
             break;
-        case 1:
-            //【runloop实战场景文章在我的简书，你的 「Star & Fork」 是对我最大的赞赏 ！】
+            
+            
+        //Swift -> runloop 待总结（欢迎后续下载阅读）
+        case 2:
             viewController = [[LNMainViewController alloc] init];
             break;
             
+
         default:
+            return;
             break;
     }
     // 调用pushFrontViewController进行页面切换

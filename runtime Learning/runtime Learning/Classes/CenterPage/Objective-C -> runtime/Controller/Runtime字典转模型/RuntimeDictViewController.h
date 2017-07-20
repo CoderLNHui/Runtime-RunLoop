@@ -1,5 +1,5 @@
 //
-//  main.m
+//  RuntimeDictViewController.h
 //  🔍白开水ln（https://github.com/CustomPBWaters）
 //
 //  Created by 【🔍Plain Boiled Water ln】 on Elegant programming16.
@@ -7,12 +7,10 @@
 //
 //  @PBWLN_LICENSE_HEADER_END@
 //
+//  Runtime 字典转模型
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "LNBaseViewController.h"
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@interface RuntimeDictViewController : LNBaseViewController
+
+@end

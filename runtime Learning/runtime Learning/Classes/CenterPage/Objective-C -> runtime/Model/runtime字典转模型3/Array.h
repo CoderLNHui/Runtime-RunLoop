@@ -1,5 +1,5 @@
 //
-//  LNRootVC.h
+//  Array.h
 //  🔍白开水ln（https://github.com/CustomPBWaters）
 //
 //  Created by 【🔍Plain Boiled Water ln】 on Elegant programming16.
@@ -7,14 +7,14 @@
 //
 //  @PBWLN_LICENSE_HEADER_END@
 //
-//  选择根控制器
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
-@interface LNRootVC : NSObject
+@interface Array : NSObject
 
-/** 选择根控制器 */
-+ (UIViewController *)chooseWindowRootVC;
+// 属性是一个数组(数组名也要和字典中的一致), （再定义数组模型时好像要以Array才行）
+@property (nonatomic, strong) NSString *Janes;
+
+@property (nonatomic, strong) NSString *book;
 
 @end
