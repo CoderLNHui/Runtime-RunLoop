@@ -28,6 +28,8 @@
 		7636B0861F206CF500A25EFD /* StatusItem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7636B06C1F206CF500A25EFD /* StatusItem3.m */; };
 		7636B0871F206CF500A25EFD /* LNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7636B06F1F206CF500A25EFD /* LNPerson.m */; };
 		7636B0881F206CF500A25EFD /* LNOperateBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7636B0721F206CF500A25EFD /* LNOperateBtn.m */; };
+		7636B08F1F20CBE200A25EFD /* UITextField+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7636B08E1F20CBE200A25EFD /* UITextField+TextField.m */; };
+		7636B0931F20CD1100A25EFD /* LNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7636B0921F20CD1100A25EFD /* LNTextField.m */; };
 		763FDB711E7D2F40004C7A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763FDB701E7D2F40004C7A7E /* Assets.xcassets */; };
 		763FDB741E7D2F40004C7A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763FDB721E7D2F40004C7A7E /* LaunchScreen.storyboard */; };
 		763FDB7F1E7D2F40004C7A7E /* runtime_LearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 763FDB7E1E7D2F40004C7A7E /* runtime_LearningTests.m */; };
@@ -106,6 +108,10 @@
 		7636B06F1F206CF500A25EFD /* LNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPerson.m; sourceTree = "<group>"; };
 		7636B0711F206CF500A25EFD /* LNOperateBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNOperateBtn.h; sourceTree = "<group>"; };
 		7636B0721F206CF500A25EFD /* LNOperateBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNOperateBtn.m; sourceTree = "<group>"; };
+		7636B08D1F20CBE200A25EFD /* UITextField+TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextField.h"; sourceTree = "<group>"; };
+		7636B08E1F20CBE200A25EFD /* UITextField+TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextField.m"; sourceTree = "<group>"; };
+		7636B0911F20CD1100A25EFD /* LNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTextField.h; sourceTree = "<group>"; };
+		7636B0921F20CD1100A25EFD /* LNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTextField.m; sourceTree = "<group>"; };
 		763FDB611E7D2F40004C7A7E /* runtime Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "runtime Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		763FDB701E7D2F40004C7A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		763FDB731E7D2F40004C7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -230,6 +236,8 @@
 				7636B0471F206CF400A25EFD /* LNExchangeMethodViewController.xib */,
 				7636B0481F206CF400A25EFD /* UIImage+Image.h */,
 				7636B0491F206CF400A25EFD /* UIImage+Image.m */,
+				7636B08D1F20CBE200A25EFD /* UITextField+TextField.h */,
+				7636B08E1F20CBE200A25EFD /* UITextField+TextField.m */,
 			);
 			path = "动态交换两个方法";
 			sourceTree = "<group>";
@@ -353,6 +361,7 @@
 		7636B0701F206CF500A25EFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7636B0901F20CD0900A25EFD /* UITextfield */,
 				7636B0711F206CF500A25EFD /* LNOperateBtn.h */,
 				7636B0721F206CF500A25EFD /* LNOperateBtn.m */,
 			);
@@ -364,6 +373,15 @@
 			children = (
 			);
 			path = "Swift -> runtime";
+			sourceTree = "<group>";
+		};
+		7636B0901F20CD0900A25EFD /* UITextfield */ = {
+			isa = PBXGroup;
+			children = (
+				7636B0911F20CD1100A25EFD /* LNTextField.h */,
+				7636B0921F20CD1100A25EFD /* LNTextField.m */,
+			);
+			path = UITextfield;
 			sourceTree = "<group>";
 		};
 		763FDB581E7D2F40004C7A7E = {
@@ -727,6 +745,7 @@
 				7636B0851F206CF500A25EFD /* NSObject+Item.m in Sources */,
 				7636B07B1F206CF500A25EFD /* LNAddAttributesViewController.m in Sources */,
 				7636B0841F206CF500A25EFD /* Array.m in Sources */,
+				7636B08F1F20CBE200A25EFD /* UITextField+TextField.m in Sources */,
 				7636B07D1F206CF500A25EFD /* NSObject+Property.m in Sources */,
 				7636B0831F206CF500A25EFD /* User.m in Sources */,
 				763FDBCD1E7D3002004C7A7E /* SVRadialGradientLayer.m in Sources */,
@@ -739,6 +758,7 @@
 				7636B0781F206CF500A25EFD /* LNExchangeMethodViewController.m in Sources */,
 				763FDBD21E7D3002004C7A7E /* LNRootVC.m in Sources */,
 				763FDBE51E7D3D8E004C7A7E /* LNMainViewController.m in Sources */,
+				7636B0931F20CD1100A25EFD /* LNTextField.m in Sources */,
 				7636B0771F206CF500A25EFD /* LNMessageViewController.m in Sources */,
 				763FDBCF1E7D3002004C7A7E /* AppDelegate.m in Sources */,
 				763FDBCE1E7D3002004C7A7E /* SWRevealViewController.m in Sources */,

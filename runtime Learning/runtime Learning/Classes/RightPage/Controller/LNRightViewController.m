@@ -45,7 +45,21 @@
 }
 
 - (void)initData {
-    _dataArray = [NSArray arrayWithObjects:@"我是右侧菜单",@"☕️Objective-C -> runloop（待）",@"runloop1",@"runloop2",@"runloop3",@"☕️Swift -> runloop（待）",@"runloop1",@"runloop2",@"runloop3", nil];
+    _dataArray = @[
+                   @"我是右侧菜单",
+                   @"☕️Objective-C -> runloop（待）",
+                   @"runloop1",
+                   @"runloop2",
+                   @"runloop3",
+                   @"☕️Swift -> runloop（待）",
+                   @"runloop1",
+                   @"runloop2",
+                   @"runloop3",
+                   ];
+    
+    
+    
+    [NSArray arrayWithObjects:@"我是右侧菜单",@"☕️Objective-C -> runloop（待）",@"runloop1",@"runloop2",@"runloop3",@"☕️Swift -> runloop（待）",@"runloop1",@"runloop2",@"runloop3", nil];
 }
 
 #pragma mark - 代理方法

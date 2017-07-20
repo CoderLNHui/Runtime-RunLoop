@@ -49,7 +49,30 @@
 }
 
 - (void)initData {
-    _dataArray = [NSArray arrayWithObjects:@"我是左侧菜单",@"☕️Objective-C -> runtime",@"runtime 字典转模型",@"runtime消息机制",@"runtime动态交换两个方法实现",@"runtime动态添加属性",@"runtime动态添加方法",@"Runtime字典转模型KVC实现",@"拦截并替换方法",@"实现NSCoding自动归档和解档",@"☕️Swift -> runtime（待）",@"runtime 字典转模型",@"runtime消息机制",@"runtime动态交换两个方法实现",@"runtime动态添加属性",@"runtime动态添加方法",@"Runtime字典转模型KVC实现",@"拦截并替换方法",@"实现NSCoding自动归档和解档", nil];
+
+    _dataArray = @[
+                   @"我是左侧菜单",
+                   @"☕️Objective-C -> runtime",
+                   @"1、字典转模型",
+                   @"2、消息机制",
+                   @"3、动态交换两个方法实现",
+                   @"3.1 给imageNamed添加功能",
+                   @"3.1 UITextField占位文字颜色",
+                   @"4、动态添加属性",
+                   @"5、动态添加方法",
+                   @"6、字典转模型KVC实现",
+                   @"7、拦截并替换方法",
+                   @"8、实现NSCoding自动归档和解档",
+                   @"☕️Swift -> runtime（待）",
+                   @"1、字典转模型",
+                   @"2、消息机制",
+                   @"3、动态交换两个方法实现",
+                   @"4、动态添加属性",
+                   @"5、动态添加方法",
+                   @"6、字典转模型KVC实现",
+                   @"7、拦截并替换方法",
+                   @"8、实现NSCoding自动归档和解档",
+                   ];
 }
 
 
@@ -85,15 +108,15 @@
         case 4:
             viewController = [[LNExchangeMethodViewController alloc] init];
             break;
-        case 5:
+        case 7:
             viewController = [[LNAddAttributesViewController alloc] init];
             break;
-        case 6:
+        case 8:
             viewController = [[LNAddMethodsViewController alloc] init];
             break;
      
         //Swift -> runtime 待总结（欢迎后续下载阅读）
-        case 8:
+        case 10:
             viewController = [[LNMainViewController alloc] init];
             break;
             

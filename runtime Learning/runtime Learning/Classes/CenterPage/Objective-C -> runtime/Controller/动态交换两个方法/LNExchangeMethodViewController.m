@@ -25,13 +25,14 @@
 
 
 - (NSString *)controllerTitle {
-    return @"Runtime动态交换两个方法";
+    return @"runtime动态交换两个方法";
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+- (IBAction)addFunctionality:(id)sender
+{
     [self interactionMethods];
 }
-
 
 //--------------------------- Runtime(交换方法) ------------------------------//
 //
@@ -40,7 +41,14 @@
     
     // imageNamed => ln_imageNamed 交换这两个方法实现
     
-    self.imageView.image = [UIImage imageNamed:@"PBwaterln"];
+    self.imageView.image = [UIImage imageNamed:@"PBwaterln1"];
+}
+
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
 }
 
 @end
