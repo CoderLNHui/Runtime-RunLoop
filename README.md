@@ -7,35 +7,18 @@
  
 
 
-## directory【目录】
+## directory
 
->目录：  
->1. runtime 概念  
->2. runtime 消息机制  
->3. runtime 方法调用流程「消息机制」  
->4. runtime 运行时常见作用  
->5. runtime 常用开发应用场景「工作掌握」  
->1.runtime 交换方法  
->2.runtime 给分类动态添加属性  
->3.runtime 字典转模型（Runtime 考虑三种情况实现）  
->6. runtime 运行时其它作用「面试熟悉」  
->1.动态添加方法  
->2.实现NSCoding的自动归档和解档  
->3.runtime 下Class的各项操作  
->4.runtime 几个参数概念  
->7. 什么是 method swizzling（俗称黑魔法）  
->8. 最后一道面试题的注解   
->9. runtime模块简友文章推荐(❤️数量较多)   
->10. 期待 & 后续
-
-
-
+![Runloop&Runtime.gif](http://upload-images.jianshu.io/upload_images/2230763-f819a52831dedf03.gif?imageMogr2/auto-orient/strip)
 
 
 
 ## NOTE
 
 - [简书文章注解 http://www.jianshu.com/p/19f280afcb24](http://www.jianshu.com/p/19f280afcb24)
+
+
+- [博客文章注解 http://plainboiledwaterln.cn/iOSNET/runloop.html](http://plainboiledwaterln.cn/iOSNET/runloop.html)
 
 
 - 建议Demo和文章结合阅读，更易于你的练习 ！
@@ -47,7 +30,7 @@
 
  
 
-【@码员真爱 : 真的不点进去阅读一下 ❓】
+【@码员真爱 : 真的不点进去阅读一下 ❓】  
 【[译文 & 源码](https://github.com/CustomPBWaters/Apple-GitHub-NewIdea)】   【[工具类](https://github.com/CustomPBWaters/Framework-Annotations-Tools)】
  
 
