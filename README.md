@@ -3,17 +3,7 @@
  
 在「时间和知识 」有限内，总结的文章难免有「未全、不足 」的地方，还望各位好友指出，以提高文章质量。
 
- 
-
-
-## directory
-
-
-![Runloop&Runtime.png](http://upload-images.jianshu.io/upload_images/2230763-aa58c416dd00c3ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
   
-
 
 ## Demo
 
