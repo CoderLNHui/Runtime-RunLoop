@@ -1,5 +1,5 @@
 /*
- * File:  LNPerson.m
+ * File:  LNDictViewController.h
  * Author:  白开水ln（https://github.com/CustomPBWaters）
  *
  * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
@@ -9,20 +9,12 @@
  *
  * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
  *
- *【Runtime 消息机制】
+ *【KVC 字典转模型】
  */
 
-#import "LNPerson.h"
 
-@implementation LNPerson
+#import <UIKit/UIKit.h>
 
-- (void)eat
-{
-    NSLog(@"吃");
-}
-- (void)run:(NSInteger)metre
-{
-    NSLog(@"今天跑了%ld米",metre);
-}
+@interface LNDictViewController : UIViewController
 
 @end

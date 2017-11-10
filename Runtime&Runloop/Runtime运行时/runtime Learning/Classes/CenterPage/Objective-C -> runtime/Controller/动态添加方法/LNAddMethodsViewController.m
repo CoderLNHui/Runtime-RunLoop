@@ -24,8 +24,12 @@
 - (NSString *)controllerTitle {
     return @"Runtime动态添加方法";
 }
+ 
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
     [self addMethods];
 }
 
@@ -33,14 +37,14 @@
 //
 
 - (void)addMethods {
-    //    _cmd:当前方法的方法编号
+    // _cmd:当前方法的方法编号
     
     Person *p = [[Person alloc] init];
     
     // 执行某个方法
-    //    [p performSelector:@selector(eat)];
-    
-    [Person performSelector:@selector(run:) withObject:@10];
+    [p performSelector:@selector(eat) withObject:@"0.5"];
+
+    [p performSelector:@selector(run:) withObject:@10];
 }
 
 @end

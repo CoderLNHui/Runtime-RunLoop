@@ -1,5 +1,5 @@
 /*
- * File:  LNPerson.m
+ * File:  LNStudent.m
  * Author:  白开水ln（https://github.com/CustomPBWaters）
  *
  * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
@@ -9,20 +9,20 @@
  *
  * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
  *
- *【Runtime 消息机制】
+ *【KVC 字典转模型】
  */
 
-#import "LNPerson.h"
+#import "LNStudent.h"
 
-@implementation LNPerson
+@implementation LNStudent
 
-- (void)eat
+/**
+ 补充: 什么时候重写系统方法
+ 1.想给系统方法添加额外功能；2.不想要系统方法实现
+ */
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key
 {
-    NSLog(@"吃");
-}
-- (void)run:(NSInteger)metre
-{
-    NSLog(@"今天跑了%ld米",metre);
+    
 }
 
 @end

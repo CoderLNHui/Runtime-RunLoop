@@ -51,11 +51,11 @@
 - (void)initData {
     _dataArray = @[
                    @"我是右侧菜单",
-                   @"☕️Objective-C -> runloop（待）",
+                   @"Objective-C -> runloop（待）",
                    @"runloop1",
                    @"runloop2",
                    @"runloop3",
-                   @"☕️Swift -> runloop（待）",
+                   @"Swift -> runloop（待）",
                    @"runloop1",
                    @"runloop2",
                    @"runloop3",
@@ -108,5 +108,7 @@
 - (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 7;
 }
+
+
 
 @end
