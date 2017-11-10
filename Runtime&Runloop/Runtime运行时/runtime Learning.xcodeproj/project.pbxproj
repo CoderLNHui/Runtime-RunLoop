@@ -189,7 +189,6 @@
 			children = (
 				7636B03A1F206CF400A25EFD /* LNBaseViewController.h */,
 				7636B03B1F206CF400A25EFD /* LNBaseViewController.m */,
-				7636B0501F206CF400A25EFD /* 基础动画 */,
 				7636B03C1F206CF400A25EFD /* Runtime字典转模型 */,
 				7636B0401F206CF400A25EFD /* Runtime字典转模型KVC实现 */,
 				7636B0411F206CF400A25EFD /* Runtime消息机制 */,
@@ -258,13 +257,6 @@
 				7636B04F1F206CF400A25EFD /* LNAddMethodsViewController.m */,
 			);
 			path = "动态添加方法";
-			sourceTree = "<group>";
-		};
-		7636B0501F206CF400A25EFD /* 基础动画 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "基础动画";
 			sourceTree = "<group>";
 		};
 		7636B0511F206CF400A25EFD /* 实现NSCoding自动归档和解档 */ = {
