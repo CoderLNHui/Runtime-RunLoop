@@ -76,8 +76,6 @@
 
 
 
-
-
 /**
  问题2:模型中嵌套模型
  如果模型中带有模型型，setValuesForKeysWithDictionary 不能用。
@@ -87,7 +85,15 @@
  */
 
     
-
+/**
+ 3.setValuesForKeysWithDictionary:底层原理:
+ 
+ // 1.遍历字典中所有key,去模型中查找有没有对应的属性
+ [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull value, BOOL * _Nonnull stop) {
+     // 2.去模型中查找有没有对应属性 KVC
+     [item setValue:value forKey:key];
+ }];
+ */
 
 
 
