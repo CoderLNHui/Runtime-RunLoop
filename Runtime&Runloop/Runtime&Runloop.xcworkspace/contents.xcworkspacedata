@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Runtime&#x8fd0;&#x884c;&#x65f6;/runtime Learning.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Runloop&#x5e38;&#x9a7b;&#x7ebf;&#x7a0b;/Runloop&#x7ecf;&#x5178;&#x5e94;&#x7528;&#x5e38;&#x9a7b;&#x7ebf;&#x7a0b;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Runloop&#x5ef6;&#x8fdf;&#x52a0;&#x8f7d;&#x56fe;&#x7247;/&#x5ef6;&#x8fdf;&#x52a0;&#x8f7d;&#x56fe;&#x7247;/&#x52a0;&#x8f7d;&#x5927;&#x56fe;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Runloop&#x5ef6;&#x8fdf;&#x52a0;&#x8f7d;&#x56fe;&#x7247;/RunLoopWorkDistribution-master/RunLoopWorkDistribution.xcodeproj">
+   </FileRef>
+</Workspace>
