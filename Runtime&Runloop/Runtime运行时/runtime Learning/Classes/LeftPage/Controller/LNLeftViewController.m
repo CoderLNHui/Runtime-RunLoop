@@ -1,12 +1,16 @@
-//
-//  LNLeftViewController.m
-//  🔍白开水ln（https://github.com/CustomPBWaters）
-//
-//  Created by 【🔍Plainboiledwaterln】 on Elegant programming16.
-//  Copyright © Reprinted（https://githubidea.github.io）Please indicate the source.Mustbe.
-//
-//  @LICENSE_HEADER_微众@白开水ln_如人饮水,冷暖自知_END@
-//
+/*
+ * File:  LNLeftViewController.m
+ * Author:  白开水ln（https://github.com/CustomPBWaters）
+ *
+ * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
+ * Copyright © Reprinted（https://githubidea.github.io）Please indicate the source.Mustbe.
+ *
+ * JaneBook:  http://www.jianshu.com/u/fd745d76c816
+ *
+ * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
+ *
+ *【左侧菜单】
+ */
 
 #import "LNLeftViewController.h"
 #import "LNMainViewController.h"
@@ -15,7 +19,7 @@
 #import "LNExchangeMethodViewController.h"
 #import "LNAddAttributesViewController.h"
 #import "LNAddMethodsViewController.h"
-
+#import "LNDictViewController.h"
 
 
 #define CellID @"cellID"
@@ -52,7 +56,7 @@
 
     _dataArray = @[
                    @"我是左侧菜单",
-                   @"☕️Objective-C -> runtime",
+                   @"OC -> runtime",
                    @"1、字典转模型",
                    @"2、消息机制",
                    @"3、动态交换两个方法实现",
@@ -63,7 +67,7 @@
                    @"6、字典转模型KVC实现",
                    @"7、拦截并替换方法",
                    @"8、实现NSCoding自动归档和解档",
-                   @"☕️Swift -> runtime（待）",
+                   @"Swift -> runtime（待）",
                    @"1、字典转模型",
                    @"2、消息机制",
                    @"3、动态交换两个方法实现",
@@ -90,6 +94,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"didSelectRow = %ld",indexPath.row);
+    
     SWRevealViewController *revealVC = self.revealViewController;
     UIViewController *viewController;
     switch (indexPath.row) {
@@ -114,7 +120,11 @@
         case 8:
             viewController = [[LNAddMethodsViewController alloc] init];
             break;
-     
+        case 9:
+            viewController = [[LNDictViewController alloc] init];
+            break;
+            
+            
         //Swift -> runtime 待总结（欢迎后续下载阅读）
         case 10:
             viewController = [[LNMainViewController alloc] init];
@@ -127,6 +137,8 @@
     }
     // 调用pushFrontViewController进行页面切换
     [revealVC pushFrontViewController:viewController animated:YES];
+    
+   
 }
 @end
 

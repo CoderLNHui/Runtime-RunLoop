@@ -1,5 +1,5 @@
 /*
- * File:  User.h
+ * File:  LNStudent.m
  * Author:  白开水ln（https://github.com/CustomPBWaters）
  *
  * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
@@ -9,17 +9,20 @@
  *
  * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
  *
- *【Runtime 字典转模型】
+ *【KVC 字典转模型】
  */
 
-#import <Foundation/Foundation.h>
+#import "LNStudent.h"
 
-@interface User : NSObject
+@implementation LNStudent
 
-@property (nonatomic, assign) BOOL vip;
-
-@property (nonatomic, strong) NSString *name;
-
-@property (nonatomic, assign) NSInteger mbrank;
+/**
+ 补充: 什么时候重写系统方法
+ 1.想给系统方法添加额外功能；2.不想要系统方法实现
+ */
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
 
 @end

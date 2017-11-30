@@ -1,5 +1,5 @@
 /*
- * File:  User.h
+ * File:  LNStudent.h
  * Author:  白开水ln（https://github.com/CustomPBWaters）
  *
  * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
@@ -9,17 +9,19 @@
  *
  * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
  *
- *【Runtime 字典转模型】
+ *【KVC 字典转模型】
  */
+
 
 #import <Foundation/Foundation.h>
 
-@interface User : NSObject
+@class LNDog;
+@interface LNStudent : NSObject
 
-@property (nonatomic, assign) BOOL vip;
+@property (nonatomic, strong) NSString * name;
+@property (nonatomic, assign) NSInteger age;
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) LNDog * dog;
 
-@property (nonatomic, assign) NSInteger mbrank;
 
 @end

@@ -48,6 +48,9 @@
 		763FDBFA1E7D4636004C7A7E /* status1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 763FDBF91E7D4636004C7A7E /* status1.plist */; };
 		763FDC101E7D4CAA004C7A7E /* status2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 763FDC0F1E7D4CAA004C7A7E /* status2.plist */; };
 		763FDC201E7D5CB9004C7A7E /* status3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 763FDC1F1E7D5CB9004C7A7E /* status3.plist */; };
+		764CC2C91FB58D3500AC0C2F /* LNDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764CC2C81FB58D3500AC0C2F /* LNDictViewController.m */; };
+		764CC2CC1FB58D7E00AC0C2F /* LNStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 764CC2CB1FB58D7E00AC0C2F /* LNStudent.m */; };
+		764CC2CF1FB58DF700AC0C2F /* LNDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 764CC2CE1FB58DF700AC0C2F /* LNDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +150,12 @@
 		763FDBF91E7D4636004C7A7E /* status1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status1.plist; sourceTree = "<group>"; };
 		763FDC0F1E7D4CAA004C7A7E /* status2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status2.plist; sourceTree = "<group>"; };
 		763FDC1F1E7D5CB9004C7A7E /* status3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status3.plist; sourceTree = "<group>"; };
+		764CC2C71FB58D3500AC0C2F /* LNDictViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDictViewController.h; sourceTree = "<group>"; };
+		764CC2C81FB58D3500AC0C2F /* LNDictViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDictViewController.m; sourceTree = "<group>"; };
+		764CC2CA1FB58D7E00AC0C2F /* LNStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNStudent.h; sourceTree = "<group>"; };
+		764CC2CB1FB58D7E00AC0C2F /* LNStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNStudent.m; sourceTree = "<group>"; };
+		764CC2CD1FB58DF700AC0C2F /* LNDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDog.h; sourceTree = "<group>"; };
+		764CC2CE1FB58DF700AC0C2F /* LNDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +198,6 @@
 			children = (
 				7636B03A1F206CF400A25EFD /* LNBaseViewController.h */,
 				7636B03B1F206CF400A25EFD /* LNBaseViewController.m */,
-				7636B0501F206CF400A25EFD /* 基础动画 */,
 				7636B03C1F206CF400A25EFD /* Runtime字典转模型 */,
 				7636B0401F206CF400A25EFD /* Runtime字典转模型KVC实现 */,
 				7636B0411F206CF400A25EFD /* Runtime消息机制 */,
@@ -215,6 +223,12 @@
 		7636B0401F206CF400A25EFD /* Runtime字典转模型KVC实现 */ = {
 			isa = PBXGroup;
 			children = (
+				764CC2C71FB58D3500AC0C2F /* LNDictViewController.h */,
+				764CC2C81FB58D3500AC0C2F /* LNDictViewController.m */,
+				764CC2CA1FB58D7E00AC0C2F /* LNStudent.h */,
+				764CC2CB1FB58D7E00AC0C2F /* LNStudent.m */,
+				764CC2CD1FB58DF700AC0C2F /* LNDog.h */,
+				764CC2CE1FB58DF700AC0C2F /* LNDog.m */,
 			);
 			path = "Runtime字典转模型KVC实现";
 			sourceTree = "<group>";
@@ -258,13 +272,6 @@
 				7636B04F1F206CF400A25EFD /* LNAddMethodsViewController.m */,
 			);
 			path = "动态添加方法";
-			sourceTree = "<group>";
-		};
-		7636B0501F206CF400A25EFD /* 基础动画 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "基础动画";
 			sourceTree = "<group>";
 		};
 		7636B0511F206CF400A25EFD /* 实现NSCoding自动归档和解档 */ = {
@@ -734,12 +741,15 @@
 				7636B0861F206CF500A25EFD /* StatusItem3.m in Sources */,
 				7636B0741F206CF500A25EFD /* LNBaseViewController.m in Sources */,
 				7636B0811F206CF500A25EFD /* NSObject+Mod.m in Sources */,
+				764CC2CF1FB58DF700AC0C2F /* LNDog.m in Sources */,
 				7636B0851F206CF500A25EFD /* NSObject+Item.m in Sources */,
 				7636B07B1F206CF500A25EFD /* LNAddAttributesViewController.m in Sources */,
 				7636B0841F206CF500A25EFD /* Array.m in Sources */,
 				7636B08F1F20CBE200A25EFD /* UITextField+TextField.m in Sources */,
 				7636B07D1F206CF500A25EFD /* NSObject+Property.m in Sources */,
+				764CC2CC1FB58D7E00AC0C2F /* LNStudent.m in Sources */,
 				7636B0831F206CF500A25EFD /* User.m in Sources */,
+				764CC2C91FB58D3500AC0C2F /* LNDictViewController.m in Sources */,
 				763FDBCD1E7D3002004C7A7E /* SVRadialGradientLayer.m in Sources */,
 				763FDBCA1E7D3002004C7A7E /* SVIndefiniteAnimatedView.m in Sources */,
 				763FDBD11E7D3002004C7A7E /* LNRightViewController.m in Sources */,

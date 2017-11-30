@@ -1,5 +1,5 @@
 /*
- * File:  User.h
+ * File:  LNDog.m
  * Author:  白开水ln（https://github.com/CustomPBWaters）
  *
  * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
@@ -9,17 +9,15 @@
  *
  * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
  *
- *【Runtime 字典转模型】
+ *【KVC 字典转模型】
  */
 
-#import <Foundation/Foundation.h>
+#import "LNDog.h"
 
-@interface User : NSObject
+@implementation LNDog
 
-@property (nonatomic, assign) BOOL vip;
-
-@property (nonatomic, strong) NSString *name;
-
-@property (nonatomic, assign) NSInteger mbrank;
+{
+    int _dogAge;
+}
 
 @end
