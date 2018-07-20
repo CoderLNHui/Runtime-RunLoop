@@ -15,14 +15,11 @@
 
 /**
  初始化按钮
- frame,
- btnTitle 标题
  */
 - (instancetype)initWithFrame:(CGRect)frame withBtnTitle:(NSString *)btnTitle;
 
 /**
  根据传入下标返回操作按钮的frame
- btnAtIndex 下标
  */
 + (CGRect)rectForBtnAtIndex:(NSUInteger)btnAtIndex;
 @end

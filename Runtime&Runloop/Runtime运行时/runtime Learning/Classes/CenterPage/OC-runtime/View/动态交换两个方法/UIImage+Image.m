@@ -16,8 +16,8 @@
 
 
 /**
- load方法: 把类加载进内存的时候调用,只会调用一次
- 方法应先交换，再去调用
+ 作用：把类加载进内存的时候调用,只会调用一次
+ 调用：方法应先交换，再去调用
  */
 + (void)load {
     
@@ -35,8 +35,8 @@
 
 /**
  看清楚下面是不会有死循环的
- 调用 imageNamed => ln_imageNamed
- 调用 ln_imageNamed => imageNamed
+    调用 imageNamed => ln_imageNamed
+    调用 ln_imageNamed => imageNamed
  */
 // 加载图片 且 带判断是否加载成功
 + (UIImage *)ln_imageNamed:(NSString *)name {
@@ -51,6 +51,7 @@
 }
 
 /**
+ 注解：
  不能在分类中重写系统方法imageNamed，因为会把系统的功能给覆盖掉，而且分类中不能调用super
  所以第二步，我们要 自己实现一个带有扩展功能的方法.
  + (UIImage *)imageNamed:(NSString *)name {

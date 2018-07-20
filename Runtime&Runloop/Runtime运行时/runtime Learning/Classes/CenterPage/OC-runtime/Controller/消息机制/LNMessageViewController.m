@@ -54,7 +54,7 @@
  
 }
 
-//    方法二：
+// 方法二：
 - (void)test {
     
     // id objc = [NSObject alloc];

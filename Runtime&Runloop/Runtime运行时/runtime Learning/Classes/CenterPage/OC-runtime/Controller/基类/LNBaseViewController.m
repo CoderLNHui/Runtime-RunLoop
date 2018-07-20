@@ -95,23 +95,6 @@
 }
 
 
-// 截取字符串(延迟执行,弹框提示用户登录请求结果)
-- (void)showWithResult:(NSString *)result {
-    
-    NSUInteger loc = [result rangeOfString:@":\""].location + 2;
-    NSUInteger len =  [result rangeOfString:@"\"}"].location - loc;
-    NSString *msg = [result substringWithRange:NSMakeRange(loc, len)];
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        if ([result containsString:@"error"]) {
-            [SVProgressHUD showErrorWithStatus:msg];
-        }else {
-            [SVProgressHUD showSuccessWithStatus:msg];
-        }
-    });
-    NSLog(@"\n%@",[NSThread currentThread]);
-}
-
 @end
 
 

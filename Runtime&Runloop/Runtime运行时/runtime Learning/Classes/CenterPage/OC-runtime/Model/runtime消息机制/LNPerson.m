@@ -15,11 +15,12 @@
 
 - (void)eat
 {
-    NSLog(@"吃");
+    NSLog(@"小刘很好吃");
 }
+
 - (void)run:(NSInteger)metre
 {
-    NSLog(@"今天跑了%ld米",metre);
+    NSLog(@"小刘，今天跑了%ld米",metre);
 }
 
 @end

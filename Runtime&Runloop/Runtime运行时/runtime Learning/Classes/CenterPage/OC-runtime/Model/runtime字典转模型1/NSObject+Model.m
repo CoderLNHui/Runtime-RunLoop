@@ -14,15 +14,6 @@
 
 @implementation NSObject (Model)
 
-// 获取类里面所有方法
-// class_copyMethodList(__unsafe_unretained Class cls, unsigned int *outCount)// 本质:创建谁的对象
-
-// 获取类里面属性
-//  class_copyPropertyList(__unsafe_unretained Class cls, unsigned int *outCount)
-
-//获取类中的所有成员变量
-//class_copyIvarList(__unsafe_unretained Class cls, unsigned int *outCount)
-
 // Runtime:根据模型中属性,去字典中取出对应的value给模型属性赋值
 // 思路：遍历模型中所有属性->使用运行时
 + (instancetype)modelWithDict:(NSDictionary *)dict
@@ -32,20 +23,19 @@
     
     // 2.利用runtime给对象中的属性赋值
     /**
-     class_copyIvarList: 获取类中的所有成员变量
-     Ivar：成员变量,以下划线开头
-     第一个参数：表示获取哪个类中的成员变量
-     第二个参数：表示这个类有多少成员变量，传入一个Int变量地址，会自动给这个变量赋值
-     返回值Ivar *：指的是一个ivar数组，会把所有成员属性放在一个数组中，通过返回的数组就能全部获取到。
-     count: 成员变量个数
+      获取类中的所有成员变量
+        class_copyIvarList(Class _Nullable cls：表示获取哪个类中的成员变量, unsigned int * _Nullable outCount：表示这个类有多少成员变量，传入一个Int变量地址，会自动给这个变量赋值)
+      返回值Ivar * =
+        指的是一个ivar数组，会把所有成员属性放在一个数组中，通过返回的数组就能全部获取到
      */
+    // 成员变量个数
     unsigned int count = 0;
     // 获取类中的所有成员变量
     Ivar *ivarList = class_copyIvarList(self, &count);
 
     // 遍历所有成员变量
     for (int i = 0; i < count; i++) {
-        // 根据角标，从数组取出对应的成员变量
+        // 根据角标，从数组取出对应的成员变量（Ivar：成员变量,以下划线开头）
         Ivar ivar = ivarList[i];
         
         // 获取成员变量名字
@@ -69,5 +59,18 @@
     return objc;
 }
 
- 
+
+/**
+ 注解：
+    获取类里面所有方法
+    class_copyMethodList(__unsafe_unretained Class cls, unsigned int *outCount)// 本质:创建谁的对象
+
+    获取类里面属性
+    class_copyPropertyList(__unsafe_unretained Class cls, unsigned int *outCount)
+
+    获取类中的所有成员变量
+    class_copyIvarList(__unsafe_unretained Class cls, unsigned int *outCount)
+ */
+
+
 @end

@@ -14,16 +14,11 @@
 		7608152A20C67A3F00DF63CB /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608152420C67A3F00DF63CB /* SVProgressAnimatedView.m */; };
 		7608157120C67B6A00DF63CB /* LNAddAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608152E20C67B6A00DF63CB /* LNAddAttributesViewController.m */; };
 		7608157220C67B6A00DF63CB /* LNAddMethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153120C67B6A00DF63CB /* LNAddMethodsViewController.m */; };
-		7608157320C67B6A00DF63CB /* LNDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153620C67B6A00DF63CB /* LNDictViewController.m */; };
 		7608157420C67B6A00DF63CB /* LNDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153820C67B6A00DF63CB /* LNDog.m */; };
 		7608157520C67B6A00DF63CB /* LNStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153920C67B6A00DF63CB /* LNStudent.m */; };
-		7608157720C67B6A00DF63CB /* RuntimeDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153D20C67B6A00DF63CB /* RuntimeDictViewController.m */; };
-		7608157820C67B6A00DF63CB /* RuntimeDictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7608153E20C67B6A00DF63CB /* RuntimeDictViewController.xib */; };
-		7608157920C67B6A00DF63CB /* UITextField+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608154220C67B6A00DF63CB /* UITextField+TextField.m */; };
 		7608157A20C67B6A00DF63CB /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608154320C67B6A00DF63CB /* UIImage+Image.m */; };
 		7608157B20C67B6A00DF63CB /* LNExchangeMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7608154520C67B6A00DF63CB /* LNExchangeMethodViewController.xib */; };
 		7608157C20C67B6A00DF63CB /* LNExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608154720C67B6A00DF63CB /* LNExchangeMethodViewController.m */; };
-		7608157D20C67B6A00DF63CB /* LNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608154A20C67B6A00DF63CB /* LNMessageViewController.m */; };
 		7608157E20C67B6A00DF63CB /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608155020C67B6A00DF63CB /* NSObject+Property.m */; };
 		7608157F20C67B6A00DF63CB /* StatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608155320C67B6A00DF63CB /* StatusItem.m */; };
 		7608158020C67B6A00DF63CB /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608155420C67B6A00DF63CB /* NSObject+Model.m */; };
@@ -36,7 +31,6 @@
 		7608158720C67B6A00DF63CB /* NSObject+Mod.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608156520C67B6A00DF63CB /* NSObject+Mod.m */; };
 		7608158820C67B6A00DF63CB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608156620C67B6A00DF63CB /* User.m */; };
 		7608158920C67B6A00DF63CB /* LNOperateBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608156C20C67B6A00DF63CB /* LNOperateBtn.m */; };
-		7608158A20C67B6A00DF63CB /* LNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608156F20C67B6A00DF63CB /* LNTextField.m */; };
 		7608158E20C67D0300DF63CB /* LNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608158C20C67D0300DF63CB /* LNBaseViewController.m */; };
 		763FDB711E7D2F40004C7A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763FDB701E7D2F40004C7A7E /* Assets.xcassets */; };
 		763FDB741E7D2F40004C7A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763FDB721E7D2F40004C7A7E /* LaunchScreen.storyboard */; };
@@ -50,6 +44,13 @@
 		763FDBFA1E7D4636004C7A7E /* status1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 763FDBF91E7D4636004C7A7E /* status1.plist */; };
 		763FDC101E7D4CAA004C7A7E /* status2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 763FDC0F1E7D4CAA004C7A7E /* status2.plist */; };
 		763FDC201E7D5CB9004C7A7E /* status3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 763FDC1F1E7D5CB9004C7A7E /* status3.plist */; };
+		76C730FC21017E1700409A63 /* UITextField+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C730F721017E1700409A63 /* UITextField+TextField.m */; };
+		76C730FD21017E1700409A63 /* LNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C730FA21017E1700409A63 /* LNTextField.m */; };
+		76C73109210186FE00409A63 /* LNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C73100210186FE00409A63 /* LNMessageViewController.m */; };
+		76C7310A210186FF00409A63 /* LNDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C73103210186FE00409A63 /* LNDictViewController.m */; };
+		76C7310B210186FF00409A63 /* RuntimeDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C73106210186FE00409A63 /* RuntimeDictViewController.m */; };
+		76C7310C210186FF00409A63 /* RuntimeDictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C73107210186FE00409A63 /* RuntimeDictViewController.xib */; };
+		76C731102101872E00409A63 /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C7310E2101872E00409A63 /* UIViewController+Example.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,22 +88,13 @@
 		7608153220C67B6A00DF63CB /* LNAddMethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAddMethodsViewController.h; sourceTree = "<group>"; };
 		7608153420C67B6A00DF63CB /* LNStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNStudent.h; sourceTree = "<group>"; };
 		7608153520C67B6A00DF63CB /* LNDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDog.h; sourceTree = "<group>"; };
-		7608153620C67B6A00DF63CB /* LNDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDictViewController.m; sourceTree = "<group>"; };
-		7608153720C67B6A00DF63CB /* LNDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDictViewController.h; sourceTree = "<group>"; };
 		7608153820C67B6A00DF63CB /* LNDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDog.m; sourceTree = "<group>"; };
 		7608153920C67B6A00DF63CB /* LNStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNStudent.m; sourceTree = "<group>"; };
-		7608153D20C67B6A00DF63CB /* RuntimeDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeDictViewController.m; sourceTree = "<group>"; };
-		7608153E20C67B6A00DF63CB /* RuntimeDictViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuntimeDictViewController.xib; sourceTree = "<group>"; };
-		7608153F20C67B6A00DF63CB /* RuntimeDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeDictViewController.h; sourceTree = "<group>"; };
-		7608154220C67B6A00DF63CB /* UITextField+TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextField.m"; sourceTree = "<group>"; };
 		7608154320C67B6A00DF63CB /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		7608154420C67B6A00DF63CB /* LNExchangeMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNExchangeMethodViewController.h; sourceTree = "<group>"; };
 		7608154520C67B6A00DF63CB /* LNExchangeMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNExchangeMethodViewController.xib; sourceTree = "<group>"; };
-		7608154620C67B6A00DF63CB /* UITextField+TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextField.h"; sourceTree = "<group>"; };
 		7608154720C67B6A00DF63CB /* LNExchangeMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNExchangeMethodViewController.m; sourceTree = "<group>"; };
 		7608154820C67B6A00DF63CB /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
-		7608154A20C67B6A00DF63CB /* LNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMessageViewController.m; sourceTree = "<group>"; };
-		7608154B20C67B6A00DF63CB /* LNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMessageViewController.h; sourceTree = "<group>"; };
 		7608154F20C67B6A00DF63CB /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		7608155020C67B6A00DF63CB /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		7608155220C67B6A00DF63CB /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
@@ -127,8 +119,6 @@
 		7608156920C67B6A00DF63CB /* NSObject+Mod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mod.h"; sourceTree = "<group>"; };
 		7608156B20C67B6A00DF63CB /* LNOperateBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNOperateBtn.h; sourceTree = "<group>"; };
 		7608156C20C67B6A00DF63CB /* LNOperateBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNOperateBtn.m; sourceTree = "<group>"; };
-		7608156E20C67B6A00DF63CB /* LNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTextField.h; sourceTree = "<group>"; };
-		7608156F20C67B6A00DF63CB /* LNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTextField.m; sourceTree = "<group>"; };
 		7608158C20C67D0300DF63CB /* LNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNBaseViewController.m; sourceTree = "<group>"; };
 		7608158D20C67D0300DF63CB /* LNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNBaseViewController.h; sourceTree = "<group>"; };
 		763FDB611E7D2F40004C7A7E /* runtime Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "runtime Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +144,19 @@
 		763FDBF91E7D4636004C7A7E /* status1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status1.plist; sourceTree = "<group>"; };
 		763FDC0F1E7D4CAA004C7A7E /* status2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status2.plist; sourceTree = "<group>"; };
 		763FDC1F1E7D5CB9004C7A7E /* status3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status3.plist; sourceTree = "<group>"; };
+		76C730F721017E1700409A63 /* UITextField+TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextField.m"; sourceTree = "<group>"; };
+		76C730F821017E1700409A63 /* LNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTextField.h; sourceTree = "<group>"; };
+		76C730F921017E1700409A63 /* UITextField+TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextField.h"; sourceTree = "<group>"; };
+		76C730FA21017E1700409A63 /* LNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTextField.m; sourceTree = "<group>"; };
+		76C73100210186FE00409A63 /* LNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMessageViewController.m; sourceTree = "<group>"; };
+		76C73101210186FE00409A63 /* LNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMessageViewController.h; sourceTree = "<group>"; };
+		76C73103210186FE00409A63 /* LNDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDictViewController.m; sourceTree = "<group>"; };
+		76C73104210186FE00409A63 /* LNDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDictViewController.h; sourceTree = "<group>"; };
+		76C73106210186FE00409A63 /* RuntimeDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeDictViewController.m; sourceTree = "<group>"; };
+		76C73107210186FE00409A63 /* RuntimeDictViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuntimeDictViewController.xib; sourceTree = "<group>"; };
+		76C73108210186FE00409A63 /* RuntimeDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeDictViewController.h; sourceTree = "<group>"; };
+		76C7310E2101872E00409A63 /* UIViewController+Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Example.m"; sourceTree = "<group>"; };
+		76C7310F2101872E00409A63 /* UIViewController+Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Example.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,14 +248,14 @@
 			isa = PBXGroup;
 			children = (
 				7608158B20C67D0300DF63CB /* 基类 */,
+				76C730FF210186FE00409A63 /* 消息机制 */,
 				7608152D20C67B6A00DF63CB /* 动态添加属性 */,
 				7608153020C67B6A00DF63CB /* 动态添加方法 */,
-				7608153320C67B6A00DF63CB /* Runtime字典转模型KVC实现 */,
-				7608153B20C67B6A00DF63CB /* 拦截并替换方法 */,
-				7608153C20C67B6A00DF63CB /* Runtime字典转模型 */,
-				7608154020C67B6A00DF63CB /* 实现NSCoding自动归档和解档 */,
 				7608154120C67B6A00DF63CB /* 动态交换两个方法 */,
-				7608154920C67B6A00DF63CB /* Runtime消息机制 */,
+				76C73102210186FE00409A63 /* 字典转模型KVC实现 */,
+				76C73105210186FE00409A63 /* 字典转模型 */,
+				7608154020C67B6A00DF63CB /* 实现NSCoding自动归档和解档 */,
+				7608153B20C67B6A00DF63CB /* 拦截并替换方法 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,34 +278,11 @@
 			path = "动态添加方法";
 			sourceTree = "<group>";
 		};
-		7608153320C67B6A00DF63CB /* Runtime字典转模型KVC实现 */ = {
-			isa = PBXGroup;
-			children = (
-				7608153520C67B6A00DF63CB /* LNDog.h */,
-				7608153820C67B6A00DF63CB /* LNDog.m */,
-				7608153620C67B6A00DF63CB /* LNDictViewController.m */,
-				7608153720C67B6A00DF63CB /* LNDictViewController.h */,
-				7608153420C67B6A00DF63CB /* LNStudent.h */,
-				7608153920C67B6A00DF63CB /* LNStudent.m */,
-			);
-			path = "Runtime字典转模型KVC实现";
-			sourceTree = "<group>";
-		};
 		7608153B20C67B6A00DF63CB /* 拦截并替换方法 */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "拦截并替换方法";
-			sourceTree = "<group>";
-		};
-		7608153C20C67B6A00DF63CB /* Runtime字典转模型 */ = {
-			isa = PBXGroup;
-			children = (
-				7608153F20C67B6A00DF63CB /* RuntimeDictViewController.h */,
-				7608153D20C67B6A00DF63CB /* RuntimeDictViewController.m */,
-				7608153E20C67B6A00DF63CB /* RuntimeDictViewController.xib */,
-			);
-			path = "Runtime字典转模型";
 			sourceTree = "<group>";
 		};
 		7608154020C67B6A00DF63CB /* 实现NSCoding自动归档和解档 */ = {
@@ -315,10 +295,6 @@
 		7608154120C67B6A00DF63CB /* 动态交换两个方法 */ = {
 			isa = PBXGroup;
 			children = (
-				7608154620C67B6A00DF63CB /* UITextField+TextField.h */,
-				7608154220C67B6A00DF63CB /* UITextField+TextField.m */,
-				7608154820C67B6A00DF63CB /* UIImage+Image.h */,
-				7608154320C67B6A00DF63CB /* UIImage+Image.m */,
 				7608154420C67B6A00DF63CB /* LNExchangeMethodViewController.h */,
 				7608154720C67B6A00DF63CB /* LNExchangeMethodViewController.m */,
 				7608154520C67B6A00DF63CB /* LNExchangeMethodViewController.xib */,
@@ -326,24 +302,15 @@
 			path = "动态交换两个方法";
 			sourceTree = "<group>";
 		};
-		7608154920C67B6A00DF63CB /* Runtime消息机制 */ = {
-			isa = PBXGroup;
-			children = (
-				7608154B20C67B6A00DF63CB /* LNMessageViewController.h */,
-				7608154A20C67B6A00DF63CB /* LNMessageViewController.m */,
-			);
-			path = "Runtime消息机制";
-			sourceTree = "<group>";
-		};
 		7608154D20C67B6A00DF63CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7608154E20C67B6A00DF63CB /* runtime动态添加属性 */,
-				7608155120C67B6A00DF63CB /* runtime字典转模型1 */,
-				7608155620C67B6A00DF63CB /* runtime动态添加方法 */,
 				7608155920C67B6A00DF63CB /* runtime消息机制 */,
-				7608155C20C67B6A00DF63CB /* runtime字典转模型3 */,
+				7608154E20C67B6A00DF63CB /* runtime动态添加属性 */,
+				7608155620C67B6A00DF63CB /* runtime动态添加方法 */,
+				7608155120C67B6A00DF63CB /* runtime字典转模型1 */,
 				7608156320C67B6A00DF63CB /* runtime字典转模型2 */,
+				7608155C20C67B6A00DF63CB /* runtime字典转模型3 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -360,10 +327,10 @@
 		7608155120C67B6A00DF63CB /* runtime字典转模型1 */ = {
 			isa = PBXGroup;
 			children = (
-				7608155220C67B6A00DF63CB /* NSObject+Model.h */,
-				7608155420C67B6A00DF63CB /* NSObject+Model.m */,
 				7608155520C67B6A00DF63CB /* StatusItem.h */,
 				7608155320C67B6A00DF63CB /* StatusItem.m */,
+				7608155220C67B6A00DF63CB /* NSObject+Model.h */,
+				7608155420C67B6A00DF63CB /* NSObject+Model.m */,
 			);
 			path = "runtime字典转模型1";
 			sourceTree = "<group>";
@@ -417,18 +384,11 @@
 			children = (
 				7608156B20C67B6A00DF63CB /* LNOperateBtn.h */,
 				7608156C20C67B6A00DF63CB /* LNOperateBtn.m */,
-				7608156D20C67B6A00DF63CB /* UITextfield */,
+				76C730F621017E1700409A63 /* LNTextfield */,
+				76C730FB21017E1700409A63 /* Runtime字典转模型KVC实现 */,
+				76C730FE21017FCC00409A63 /* 动态交换两个方法 */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		7608156D20C67B6A00DF63CB /* UITextfield */ = {
-			isa = PBXGroup;
-			children = (
-				7608156E20C67B6A00DF63CB /* LNTextField.h */,
-				7608156F20C67B6A00DF63CB /* LNTextField.m */,
-			);
-			path = UITextfield;
 			sourceTree = "<group>";
 		};
 		7608157020C67B6A00DF63CB /* Swift-runtime */ = {
@@ -608,6 +568,7 @@
 			isa = PBXGroup;
 			children = (
 				763FDBC31E7D3002004C7A7E /* RootVC */,
+				76C7310D2101872E00409A63 /* 交换dealloc方法实现 */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -621,6 +582,74 @@
 				763FDBE41E7D3D8E004C7A7E /* LNMainViewController.m */,
 			);
 			path = RootVC;
+			sourceTree = "<group>";
+		};
+		76C730F621017E1700409A63 /* LNTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				76C730F821017E1700409A63 /* LNTextField.h */,
+				76C730FA21017E1700409A63 /* LNTextField.m */,
+				76C730F721017E1700409A63 /* UITextField+TextField.m */,
+				76C730F921017E1700409A63 /* UITextField+TextField.h */,
+			);
+			path = LNTextfield;
+			sourceTree = "<group>";
+		};
+		76C730FB21017E1700409A63 /* Runtime字典转模型KVC实现 */ = {
+			isa = PBXGroup;
+			children = (
+				7608153520C67B6A00DF63CB /* LNDog.h */,
+				7608153820C67B6A00DF63CB /* LNDog.m */,
+				7608153420C67B6A00DF63CB /* LNStudent.h */,
+				7608153920C67B6A00DF63CB /* LNStudent.m */,
+			);
+			path = "Runtime字典转模型KVC实现";
+			sourceTree = "<group>";
+		};
+		76C730FE21017FCC00409A63 /* 动态交换两个方法 */ = {
+			isa = PBXGroup;
+			children = (
+				7608154820C67B6A00DF63CB /* UIImage+Image.h */,
+				7608154320C67B6A00DF63CB /* UIImage+Image.m */,
+			);
+			path = "动态交换两个方法";
+			sourceTree = "<group>";
+		};
+		76C730FF210186FE00409A63 /* 消息机制 */ = {
+			isa = PBXGroup;
+			children = (
+				76C73101210186FE00409A63 /* LNMessageViewController.h */,
+				76C73100210186FE00409A63 /* LNMessageViewController.m */,
+			);
+			path = "消息机制";
+			sourceTree = "<group>";
+		};
+		76C73102210186FE00409A63 /* 字典转模型KVC实现 */ = {
+			isa = PBXGroup;
+			children = (
+				76C73104210186FE00409A63 /* LNDictViewController.h */,
+				76C73103210186FE00409A63 /* LNDictViewController.m */,
+			);
+			path = "字典转模型KVC实现";
+			sourceTree = "<group>";
+		};
+		76C73105210186FE00409A63 /* 字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				76C73108210186FE00409A63 /* RuntimeDictViewController.h */,
+				76C73106210186FE00409A63 /* RuntimeDictViewController.m */,
+				76C73107210186FE00409A63 /* RuntimeDictViewController.xib */,
+			);
+			path = "字典转模型";
+			sourceTree = "<group>";
+		};
+		76C7310D2101872E00409A63 /* 交换dealloc方法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				76C7310F2101872E00409A63 /* UIViewController+Example.h */,
+				76C7310E2101872E00409A63 /* UIViewController+Example.m */,
+			);
+			path = "交换dealloc方法实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -735,7 +764,7 @@
 				763FDC201E7D5CB9004C7A7E /* status3.plist in Resources */,
 				763FDB741E7D2F40004C7A7E /* LaunchScreen.storyboard in Resources */,
 				763FDBFA1E7D4636004C7A7E /* status1.plist in Resources */,
-				7608157820C67B6A00DF63CB /* RuntimeDictViewController.xib in Resources */,
+				76C7310C210186FF00409A63 /* RuntimeDictViewController.xib in Resources */,
 				763FDC101E7D4CAA004C7A7E /* status2.plist in Resources */,
 				763FDB711E7D2F40004C7A7E /* Assets.xcassets in Resources */,
 			);
@@ -762,18 +791,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7608157D20C67B6A00DF63CB /* LNMessageViewController.m in Sources */,
+				76C73109210186FE00409A63 /* LNMessageViewController.m in Sources */,
 				763FDBD01E7D3002004C7A7E /* main.m in Sources */,
 				7608158E20C67D0300DF63CB /* LNBaseViewController.m in Sources */,
 				7608158220C67B6A00DF63CB /* LNPerson.m in Sources */,
 				7608158920C67B6A00DF63CB /* LNOperateBtn.m in Sources */,
 				7608157A20C67B6A00DF63CB /* UIImage+Image.m in Sources */,
 				7608152720C67A3F00DF63CB /* SVProgressHUD.m in Sources */,
-				7608157920C67B6A00DF63CB /* UITextField+TextField.m in Sources */,
 				7608152620C67A3F00DF63CB /* SVRadialGradientLayer.m in Sources */,
 				763FDBD11E7D3002004C7A7E /* LNRightViewController.m in Sources */,
+				76C731102101872E00409A63 /* UIViewController+Example.m in Sources */,
+				76C730FC21017E1700409A63 /* UITextField+TextField.m in Sources */,
 				7608157C20C67B6A00DF63CB /* LNExchangeMethodViewController.m in Sources */,
 				7608158320C67B6A00DF63CB /* Array.m in Sources */,
+				76C7310B210186FF00409A63 /* RuntimeDictViewController.m in Sources */,
 				7608157220C67B6A00DF63CB /* LNAddMethodsViewController.m in Sources */,
 				7608158020C67B6A00DF63CB /* NSObject+Model.m in Sources */,
 				7608158720C67B6A00DF63CB /* NSObject+Mod.m in Sources */,
@@ -784,18 +815,17 @@
 				7608158820C67B6A00DF63CB /* User.m in Sources */,
 				763FDBE51E7D3D8E004C7A7E /* LNMainViewController.m in Sources */,
 				7608152A20C67A3F00DF63CB /* SVProgressAnimatedView.m in Sources */,
-				7608157320C67B6A00DF63CB /* LNDictViewController.m in Sources */,
 				7608157120C67B6A00DF63CB /* LNAddAttributesViewController.m in Sources */,
 				763FDBCF1E7D3002004C7A7E /* AppDelegate.m in Sources */,
+				76C7310A210186FF00409A63 /* LNDictViewController.m in Sources */,
 				7608157F20C67B6A00DF63CB /* StatusItem.m in Sources */,
 				7608158520C67B6A00DF63CB /* StatusItem3.m in Sources */,
-				7608157720C67B6A00DF63CB /* RuntimeDictViewController.m in Sources */,
 				763FDBCE1E7D3002004C7A7E /* SWRevealViewController.m in Sources */,
 				7608158120C67B6A00DF63CB /* Person.m in Sources */,
 				763FDBC91E7D3002004C7A7E /* LNLeftViewController.m in Sources */,
 				7608158420C67B6A00DF63CB /* NSObject+Item.m in Sources */,
 				7608152920C67A3F00DF63CB /* SVIndefiniteAnimatedView.m in Sources */,
-				7608158A20C67B6A00DF63CB /* LNTextField.m in Sources */,
+				76C730FD21017E1700409A63 /* LNTextField.m in Sources */,
 				7608158620C67B6A00DF63CB /* StatusItem2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -938,7 +968,7 @@
 				GCC_PREFIX_HEADER = "runtime Learning/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "runtime Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "LN.runtime-Learning";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderLN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -952,7 +982,7 @@
 				GCC_PREFIX_HEADER = "runtime Learning/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "runtime Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "LN.runtime-Learning";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderLN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

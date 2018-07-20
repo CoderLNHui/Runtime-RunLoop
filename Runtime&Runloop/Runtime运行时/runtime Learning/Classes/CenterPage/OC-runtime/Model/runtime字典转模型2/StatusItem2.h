@@ -17,7 +17,7 @@
 
 /**
  runtime 字典转模型-->
- 模型中嵌套模型「模型属性是另外一个模型对象」，这种情况处理如下：
+    场景2：模型中嵌套模型「模型属性是另外一个模型对象」，这种情况处理如下：
  */
 
 @property (nonatomic, assign) NSInteger attitudes_count;

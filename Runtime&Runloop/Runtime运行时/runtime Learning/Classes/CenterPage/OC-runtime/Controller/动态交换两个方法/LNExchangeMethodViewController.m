@@ -22,9 +22,6 @@
 @implementation LNExchangeMethodViewController
 
 
-
-
-
 - (NSString *)controllerTitle {
     return @"runtime动态交换两个方法";
 }
@@ -43,7 +40,6 @@
     // imageNamed => ln_imageNamed 交换这两个方法实现
     self.imageView.image = [UIImage imageNamed:@"PBwaterln1"];
 }
-
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event

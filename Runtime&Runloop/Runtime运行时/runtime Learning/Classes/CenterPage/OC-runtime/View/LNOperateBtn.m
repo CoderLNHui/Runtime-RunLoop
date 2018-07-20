@@ -14,8 +14,9 @@
 @implementation LNOperateBtn
 
 - (instancetype)initWithFrame:(CGRect)frame withBtnTitle:(NSString *)btnTitle {
-   self = [super initWithFrame:frame];
-    if (self) {
+    
+    if (self = [super initWithFrame:frame]) {
+        
         [self setTitle:btnTitle forState:UIControlStateNormal];
         self.titleLabel.font = [UIFont systemFontOfSize:12.f];
         self.backgroundColor = [UIColor grayColor];
@@ -25,7 +26,6 @@
 
 /**
  根据传入下标返回操作按钮的frame
- btnAtIndex 下标
  */
 + (CGRect)rectForBtnAtIndex:(NSUInteger)btnAtIndex {
     // 每行最多显示4个
