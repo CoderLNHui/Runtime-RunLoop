@@ -47,21 +47,11 @@
 }
 
 - (void)initData {
-    _dataArray = @[
+    self.dataArray = @[
                    @"我是右侧菜单",
                    @"Objective-C -> runloop（待）",
-                   @"runloop1",
-                   @"runloop2",
-                   @"runloop3",
                    @"Swift -> runloop（待）",
-                   @"runloop1",
-                   @"runloop2",
-                   @"runloop3",
                    ];
-    
-    
-    
-    [NSArray arrayWithObjects:@"我是右侧菜单",@"☕️Objective-C -> runloop（待）",@"runloop1",@"runloop2",@"runloop3",@"☕️Swift -> runloop（待）",@"runloop1",@"runloop2",@"runloop3", nil];
 }
 
 #pragma mark - 代理方法
@@ -82,22 +72,21 @@
     SWRevealViewController *revealVC = self.revealViewController;
     UIViewController *viewController;
     switch (indexPath.row) {
-        //Objective-C -> runloop 待总结（欢迎后续下载阅读）
+        //Objective-C -> runloop 待总结（后续下载阅读）
         case 0:
             viewController = [[LNMainViewController alloc] init];
             break;
             
-            
-        //Swift -> runloop 待总结（欢迎后续下载阅读）
+        //Swift -> runloop 待总结（后续下载阅读）
         case 2:
             viewController = [[LNMainViewController alloc] init];
             break;
             
-
         default:
             return;
             break;
     }
+    
     // 调用pushFrontViewController进行页面切换
     [revealVC pushFrontViewController:viewController animated:YES];
 }

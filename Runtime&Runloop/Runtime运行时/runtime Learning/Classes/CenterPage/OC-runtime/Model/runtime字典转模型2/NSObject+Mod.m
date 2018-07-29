@@ -14,8 +14,7 @@
 @implementation NSObject (Mod)
 
 
-// Runtime：根据模型中属性,去字典中取出对应的value给模型属性赋值
-// 思路：遍历模型中所有属性->使用运行时
+// 思路：利用runtime 遍历模型中所有属性，根据模型中属性,去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict2:(NSDictionary *)dict
 {
     // 1.创建对应的对象
@@ -53,7 +52,7 @@
         // 根据成员属性名去字典中查找对应的value
         id value = dict[key];
         
-        // 二级转换:如果字典中还有字典，也需要把对应的字典转换成模型
+        // 二级转换：如果字典中还有字典，也需要把对应的字典转换成模型
         // 判断下value是否是字典,并且是自定义对象才需要转换
         if ([value isKindOfClass:[NSDictionary class]] && ![ivarType hasPrefix:@"NS"]) {
             
@@ -75,22 +74,5 @@
     return objc;
 }
 
-
-
-
-
-
-
-
-
-
-/**
- 注解：
-    获取类里面所有方法
-    class_copyMethodList(__unsafe_unretained Class cls, unsigned int *outCount)// 本质:创建谁的对象
-
-    获取类里面属性
-    class_copyPropertyList(<#__unsafe_unretained Class cls#>, <#unsigned int *outCount#>)
- */
 
 @end

@@ -238,8 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				7608152C20C67B6A00DF63CB /* Controller */,
-				7608154D20C67B6A00DF63CB /* Model */,
 				7608156A20C67B6A00DF63CB /* View */,
+				7608154D20C67B6A00DF63CB /* Model */,
 			);
 			path = "OC-runtime";
 			sourceTree = "<group>";
@@ -249,8 +249,8 @@
 			children = (
 				7608158B20C67D0300DF63CB /* 基类 */,
 				76C730FF210186FE00409A63 /* 消息机制 */,
-				7608152D20C67B6A00DF63CB /* 动态添加属性 */,
 				7608153020C67B6A00DF63CB /* 动态添加方法 */,
+				7608152D20C67B6A00DF63CB /* 动态添加属性 */,
 				7608154120C67B6A00DF63CB /* 动态交换两个方法 */,
 				76C73102210186FE00409A63 /* 字典转模型KVC实现 */,
 				76C73105210186FE00409A63 /* 字典转模型 */,
@@ -306,8 +306,8 @@
 			isa = PBXGroup;
 			children = (
 				7608155920C67B6A00DF63CB /* runtime消息机制 */,
-				7608154E20C67B6A00DF63CB /* runtime动态添加属性 */,
 				7608155620C67B6A00DF63CB /* runtime动态添加方法 */,
+				7608154E20C67B6A00DF63CB /* runtime动态添加属性 */,
 				7608155120C67B6A00DF63CB /* runtime字典转模型1 */,
 				7608156320C67B6A00DF63CB /* runtime字典转模型2 */,
 				7608155C20C67B6A00DF63CB /* runtime字典转模型3 */,
@@ -589,8 +589,8 @@
 			children = (
 				76C730F821017E1700409A63 /* LNTextField.h */,
 				76C730FA21017E1700409A63 /* LNTextField.m */,
-				76C730F721017E1700409A63 /* UITextField+TextField.m */,
 				76C730F921017E1700409A63 /* UITextField+TextField.h */,
+				76C730F721017E1700409A63 /* UITextField+TextField.m */,
 			);
 			path = LNTextfield;
 			sourceTree = "<group>";

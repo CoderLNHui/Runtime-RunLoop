@@ -11,7 +11,8 @@
 
 
 #import <UIKit/UIKit.h>
+#import "LNBaseViewController.h"
 
-@interface LNDictViewController : UIViewController
+@interface LNDictViewController : LNBaseViewController
 
 @end

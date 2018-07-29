@@ -37,7 +37,4 @@
  每个按钮的点击事件
  */
 -(void)btnClick : (UIButton *)btn;
-
-
-- (void)showWithResult:(NSString *)result;
 @end

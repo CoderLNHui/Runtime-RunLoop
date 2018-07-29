@@ -21,7 +21,6 @@
 
 @implementation LNExchangeMethodViewController
 
-
 - (NSString *)controllerTitle {
     return @"runtime动态交换两个方法";
 }
@@ -34,7 +33,10 @@
 
 //--------------------------- Runtime(交换方法) ------------------------------//
 //
-
+/**
+ 方案一：先搞个分类，定义一个能加载图片并且能打印的方法+ (instancetype)imageWithName:(NSString *)name;
+ 方案二：交换 imageNamed 和 ln_imageNamed 的实现，就能调用 imageNamed，间接调用 ln_imageNamed 的实现。
+ */
 - (void)interactionMethods{
     
     // imageNamed => ln_imageNamed 交换这两个方法实现

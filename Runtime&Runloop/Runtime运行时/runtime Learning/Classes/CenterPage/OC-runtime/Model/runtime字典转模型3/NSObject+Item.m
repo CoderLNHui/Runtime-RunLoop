@@ -14,8 +14,7 @@
 
 @implementation NSObject (Item)
 
-// Runtime：根据模型中属性,去字典中取出对应的value给模型属性赋值
-// 思路：遍历模型中所有属性->使用运行时
+// 思路：利用runtime 遍历模型中所有属性，根据模型中属性,去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict3:(NSDictionary *)dict
 {
     // 1.创建对应的对象

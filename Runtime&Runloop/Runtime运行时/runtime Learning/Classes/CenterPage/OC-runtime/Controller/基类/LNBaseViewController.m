@@ -23,8 +23,8 @@
 
 - (UIImageView *)imageV {
     if (!_imageV) {
-        _imageV = [[UIImageView alloc] initWithFrame:CGRectMake(kScreenWidth/2 -100, kScreenHeight/2 - 110, 200, 220)];
-        _imageV.image = [UIImage imageNamed:@"PBwaterln"];
+        _imageV = [[UIImageView alloc] initWithFrame:CGRectMake(kScreenWidth/2 -120, kScreenHeight/2 - 100, 240, 260)];
+        _imageV.image = [UIImage imageNamed:@"CoderLN"];
         _imageV.layer.cornerRadius = 10;
         _imageV.layer.masksToBounds = YES;
         _imageV.backgroundColor = [UIColor redColor];

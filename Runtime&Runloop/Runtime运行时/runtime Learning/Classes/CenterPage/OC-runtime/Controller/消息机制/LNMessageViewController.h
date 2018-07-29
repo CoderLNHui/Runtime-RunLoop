@@ -19,8 +19,8 @@
     id:谁发送消息
     SEL:发送什么消息
     ((NSObject *(*)(id, SEL))(void *)objc_msgSend)([NSObject class], @selector(alloc));
-    xcode6之前,苹果运行使用objc_msgSend.而且有参数提示
-    xcode6苹果不推荐我们使用runtime
+    xcode6之前，苹果运行使用objc_msgSend.而且有参数提示
+    xcode6之后，苹果不推荐我们使用runtime
 
  2、场景：需要用到runtime,消息机制
     1.gao逼格
@@ -28,4 +28,4 @@
  */
 
 
-@end
+@end 

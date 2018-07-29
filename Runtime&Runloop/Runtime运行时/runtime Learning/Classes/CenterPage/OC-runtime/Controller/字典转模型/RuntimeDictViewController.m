@@ -33,7 +33,6 @@
     // 获取Plist文件
     NSString *filePath = [[NSBundle mainBundle] pathForResource:str ofType:nil];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
-    
     return dict;
 }
 

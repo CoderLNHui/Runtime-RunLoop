@@ -22,7 +22,8 @@
     [self addTarget:self action:@selector(textBegin) forControlEvents:UIControlEventEditingDidBegin];
     [self addTarget:self action:@selector(textEnd) forControlEvents:UIControlEventEditingDidEnd];
 
-    // 默认设置文本框占位文字颜色
+    // 设置文本框占位文字和占位文字颜色
+    self.placeholder = @"CoderLN ";
     self.placeholderColor = [UIColor redColor];
 }
 

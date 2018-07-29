@@ -14,8 +14,6 @@
 @interface LNPerson : NSObject
 
 - (void)run:(NSInteger)metre;
-
-
 - (void)eat;
 
 @end

@@ -54,25 +54,18 @@
     _dataArray = @[
                    @"我是左侧菜单",
                    @"OC -> runtime",
-                   @"1、字典转模型",
-                   @"2、消息机制",
-                   @"3、动态交换两个方法实现",
+                   @"1、字典转模型",// case 2
+                   @"2、消息机制",// case 3
+                   @"3、动态交换两个方法实现",// case 4
                    @"3.1 给imageNamed添加功能",
                    @"3.1 UITextField占位文字颜色",
-                   @"4、动态添加属性",
-                   @"5、动态添加方法",
-                   @"6、字典转模型KVC实现",
+                   @"3.1 交换dealloc方法实现",
+                   @"4、动态添加属性",// case 8
+                   @"5、动态添加方法",// case 9
+                   @"6、字典转模型KVC实现",// case 10
                    @"7、拦截并替换方法",
                    @"8、实现NSCoding自动归档和解档",
-                   @"Swift -> runtime（待）",
-                   @"1、字典转模型",
-                   @"2、消息机制",
-                   @"3、动态交换两个方法实现",
-                   @"4、动态添加属性",
-                   @"5、动态添加方法",
-                   @"6、字典转模型KVC实现",
-                   @"7、拦截并替换方法",
-                   @"8、实现NSCoding自动归档和解档",
+                   @"Swift -> runtime",// case 13
                    ];
 }
 
@@ -96,12 +89,10 @@
     SWRevealViewController *revealVC = self.revealViewController;
     UIViewController *viewController;
     switch (indexPath.row) {
-        //Objective-C -> runtime 续更场景（欢迎后续下载阅读）
+        //Objective-C -> runtime（后续下载阅读）
         case 0:
             viewController = [[LNMainViewController alloc] init];
             break;
-
-            
         case 2:
             viewController = [[RuntimeDictViewController alloc] init];
             break;
@@ -111,22 +102,21 @@
         case 4:
             viewController = [[LNExchangeMethodViewController alloc] init];
             break;
-        case 7:
+        case 8:
             viewController = [[LNAddAttributesViewController alloc] init];
             break;
-        case 8:
+        case 9:
             viewController = [[LNAddMethodsViewController alloc] init];
             break;
-        case 9:
+        case 10:
             viewController = [[LNDictViewController alloc] init];
             break;
             
             
-        //Swift -> runtime 待总结（欢迎后续下载阅读）
-        case 10:
+        //Swift -> runtime（欢迎后续下载阅读）
+        case 13:
             viewController = [[LNMainViewController alloc] init];
             break;
-            
             
         default:
             return;

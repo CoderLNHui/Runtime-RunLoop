@@ -14,8 +14,7 @@
 
 @implementation NSObject (Model)
 
-// Runtime:根据模型中属性,去字典中取出对应的value给模型属性赋值
-// 思路：遍历模型中所有属性->使用运行时
+// 思路：利用runtime 遍历模型中所有属性，根据模型中属性,去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict:(NSDictionary *)dict
 {
     // 1.创建对应的对象
@@ -41,7 +40,7 @@
         // 获取成员变量名字
         NSString *ivarName = [NSString stringWithUTF8String:ivar_getName(ivar)];
         
-        // 处理成员变量名->字典中的key(去掉 _ ,从第一个角标开始截取)
+        // 处理成员变量名，字典中的key(去掉 _ ,从第一个角标开始截取)
         NSString *key = [ivarName substringFromIndex:1];
         
         // 根据成员属性名去字典中查找对应的value
@@ -53,7 +52,6 @@
             // 给模型中属性赋值
             [objc setValue:value forKey:key];
         }
-
     }
    
     return objc;
@@ -65,7 +63,7 @@
     获取类里面所有方法
     class_copyMethodList(__unsafe_unretained Class cls, unsigned int *outCount)// 本质:创建谁的对象
 
-    获取类里面属性
+    获取类里面所有属性
     class_copyPropertyList(__unsafe_unretained Class cls, unsigned int *outCount)
 
     获取类中的所有成员变量
