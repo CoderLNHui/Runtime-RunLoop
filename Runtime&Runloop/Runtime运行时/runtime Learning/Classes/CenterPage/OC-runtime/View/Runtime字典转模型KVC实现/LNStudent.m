@@ -11,6 +11,12 @@
 
 #import "LNStudent.h"
 
+@interface LNStudent ()
+{
+    int _weight;// 私有成员变量
+}
+@end
+
 @implementation LNStudent
 
 /**

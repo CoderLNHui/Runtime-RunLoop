@@ -11,10 +11,12 @@
 
 #import "LNDog.h"
 
-@implementation LNDog
-
+@interface LNDog ()
 {
-    int _dogAge;
+    int _dogAge;// 私有成员变量
 }
+@end
+
+@implementation LNDog
 
 @end

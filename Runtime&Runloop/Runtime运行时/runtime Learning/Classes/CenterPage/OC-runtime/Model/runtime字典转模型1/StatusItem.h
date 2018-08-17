@@ -21,7 +21,7 @@
 @interface StatusItem : NSObject
 
 //{
-//    int _a; // 成员变量
+//    int _a; // 私有成员变量
 //}
 
 @property (nonatomic, assign) NSInteger attitudes_count; // 属性

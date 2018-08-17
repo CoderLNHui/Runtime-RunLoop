@@ -14,8 +14,6 @@
 @interface LNDog : NSObject
 
 @property (nonatomic, copy) NSString *nameDog;
-
 @property (nonatomic, assign) float money;
-
 
 @end

@@ -598,10 +598,10 @@
 		76C730FB21017E1700409A63 /* Runtime字典转模型KVC实现 */ = {
 			isa = PBXGroup;
 			children = (
-				7608153520C67B6A00DF63CB /* LNDog.h */,
-				7608153820C67B6A00DF63CB /* LNDog.m */,
 				7608153420C67B6A00DF63CB /* LNStudent.h */,
 				7608153920C67B6A00DF63CB /* LNStudent.m */,
+				7608153520C67B6A00DF63CB /* LNDog.h */,
+				7608153820C67B6A00DF63CB /* LNDog.m */,
 			);
 			path = "Runtime字典转模型KVC实现";
 			sourceTree = "<group>";

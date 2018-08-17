@@ -11,6 +11,8 @@
 
 #import "LNDictViewController.h"
 #import "LNStudent.h"
+#import "LNDog.h"
+
 @interface LNDictViewController ()
 
 @end
@@ -38,11 +40,13 @@
                                };
     
     LNStudent *student = [[LNStudent alloc] init];
+    student.dog = [[LNDog alloc] init];
     [student setValuesForKeysWithDictionary:dictMode];
-    
     NSLog(@"KVC字典转模型: %@ ,%ld",student.name,student.age);
     
-    
+    // 访问私有成员变量
+    [student setValue:@110 forKeyPath:@"weight"];
+    [student.dog setValue:@6 forKeyPath:@"dogAge"];
     
     NSDictionary *modeDict = [student dictionaryWithValuesForKeys:@[@"name", @"age"]];
     NSLog(@"KVC模型转字典: %@",modeDict);
