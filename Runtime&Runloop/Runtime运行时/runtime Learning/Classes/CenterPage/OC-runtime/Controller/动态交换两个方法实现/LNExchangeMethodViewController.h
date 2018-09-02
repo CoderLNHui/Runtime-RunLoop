@@ -6,7 +6,7 @@
  *
  * 🏃🏻‍♂️ ◕该模块将系统化学习，后续替换、补充文章内容 ~
  *
- *【Runtime 交换方法】imageNamed => ln_imageNamed 交换这两个方法实现
+ * 【Runtime 交换方法实现】imageNamed => ln_imageNamed 交换这两个方法实现
  */
 
 #import "LNBaseViewController.h"

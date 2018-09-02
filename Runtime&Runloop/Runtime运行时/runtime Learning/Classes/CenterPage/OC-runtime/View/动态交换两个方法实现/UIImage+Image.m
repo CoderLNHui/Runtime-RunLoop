@@ -64,8 +64,10 @@
 //
 /**
  注解：
-    class_getClassMethod 获取某个类的方法
-    method_exchangeImplementations 交换方法实现
+    //获取某个类的方法地址
+    class_getClassMethod(Class  _Nullable __unsafe_unretained cls：获取哪个类方法, SEL  _Nonnull name：哪个方法)
+    //交换方法实现
+    method_exchangeImplementations
  */
 
 

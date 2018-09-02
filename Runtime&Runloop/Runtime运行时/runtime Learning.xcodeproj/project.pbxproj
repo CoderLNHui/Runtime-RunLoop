@@ -16,9 +16,6 @@
 		7608157220C67B6A00DF63CB /* LNAddMethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153120C67B6A00DF63CB /* LNAddMethodsViewController.m */; };
 		7608157420C67B6A00DF63CB /* LNDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153820C67B6A00DF63CB /* LNDog.m */; };
 		7608157520C67B6A00DF63CB /* LNStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608153920C67B6A00DF63CB /* LNStudent.m */; };
-		7608157A20C67B6A00DF63CB /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608154320C67B6A00DF63CB /* UIImage+Image.m */; };
-		7608157B20C67B6A00DF63CB /* LNExchangeMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7608154520C67B6A00DF63CB /* LNExchangeMethodViewController.xib */; };
-		7608157C20C67B6A00DF63CB /* LNExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608154720C67B6A00DF63CB /* LNExchangeMethodViewController.m */; };
 		7608157E20C67B6A00DF63CB /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608155020C67B6A00DF63CB /* NSObject+Property.m */; };
 		7608157F20C67B6A00DF63CB /* StatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608155320C67B6A00DF63CB /* StatusItem.m */; };
 		7608158020C67B6A00DF63CB /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608155420C67B6A00DF63CB /* NSObject+Model.m */; };
@@ -32,6 +29,9 @@
 		7608158820C67B6A00DF63CB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608156620C67B6A00DF63CB /* User.m */; };
 		7608158920C67B6A00DF63CB /* LNOperateBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608156C20C67B6A00DF63CB /* LNOperateBtn.m */; };
 		7608158E20C67D0300DF63CB /* LNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608158C20C67D0300DF63CB /* LNBaseViewController.m */; };
+		76221ACB212C1131008A6B23 /* LNExchangeMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76221AC9212C1131008A6B23 /* LNExchangeMethodViewController.xib */; };
+		76221ACC212C1131008A6B23 /* LNExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76221ACA212C1131008A6B23 /* LNExchangeMethodViewController.m */; };
+		76221AD0212C114A008A6B23 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 76221ACE212C114A008A6B23 /* UIImage+Image.m */; };
 		763FDB711E7D2F40004C7A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763FDB701E7D2F40004C7A7E /* Assets.xcassets */; };
 		763FDB741E7D2F40004C7A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763FDB721E7D2F40004C7A7E /* LaunchScreen.storyboard */; };
 		763FDBC91E7D3002004C7A7E /* LNLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763FDBA71E7D3002004C7A7E /* LNLeftViewController.m */; };
@@ -90,11 +90,6 @@
 		7608153520C67B6A00DF63CB /* LNDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDog.h; sourceTree = "<group>"; };
 		7608153820C67B6A00DF63CB /* LNDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDog.m; sourceTree = "<group>"; };
 		7608153920C67B6A00DF63CB /* LNStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNStudent.m; sourceTree = "<group>"; };
-		7608154320C67B6A00DF63CB /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
-		7608154420C67B6A00DF63CB /* LNExchangeMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNExchangeMethodViewController.h; sourceTree = "<group>"; };
-		7608154520C67B6A00DF63CB /* LNExchangeMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNExchangeMethodViewController.xib; sourceTree = "<group>"; };
-		7608154720C67B6A00DF63CB /* LNExchangeMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNExchangeMethodViewController.m; sourceTree = "<group>"; };
-		7608154820C67B6A00DF63CB /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		7608154F20C67B6A00DF63CB /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		7608155020C67B6A00DF63CB /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		7608155220C67B6A00DF63CB /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
@@ -121,6 +116,11 @@
 		7608156C20C67B6A00DF63CB /* LNOperateBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNOperateBtn.m; sourceTree = "<group>"; };
 		7608158C20C67D0300DF63CB /* LNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNBaseViewController.m; sourceTree = "<group>"; };
 		7608158D20C67D0300DF63CB /* LNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNBaseViewController.h; sourceTree = "<group>"; };
+		76221AC8212C1131008A6B23 /* LNExchangeMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNExchangeMethodViewController.h; sourceTree = "<group>"; };
+		76221AC9212C1131008A6B23 /* LNExchangeMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNExchangeMethodViewController.xib; sourceTree = "<group>"; };
+		76221ACA212C1131008A6B23 /* LNExchangeMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNExchangeMethodViewController.m; sourceTree = "<group>"; };
+		76221ACE212C114A008A6B23 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		76221ACF212C114A008A6B23 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		763FDB611E7D2F40004C7A7E /* runtime Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "runtime Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		763FDB701E7D2F40004C7A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		763FDB731E7D2F40004C7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 				76C730FF210186FE00409A63 /* 消息机制 */,
 				7608153020C67B6A00DF63CB /* 动态添加方法 */,
 				7608152D20C67B6A00DF63CB /* 动态添加属性 */,
-				7608154120C67B6A00DF63CB /* 动态交换两个方法 */,
+				76221AC7212C1131008A6B23 /* 动态交换两个方法实现 */,
 				76C73102210186FE00409A63 /* 字典转模型KVC实现 */,
 				76C73105210186FE00409A63 /* 字典转模型 */,
 				7608154020C67B6A00DF63CB /* 实现NSCoding自动归档和解档 */,
@@ -290,16 +290,6 @@
 			children = (
 			);
 			path = "实现NSCoding自动归档和解档";
-			sourceTree = "<group>";
-		};
-		7608154120C67B6A00DF63CB /* 动态交换两个方法 */ = {
-			isa = PBXGroup;
-			children = (
-				7608154420C67B6A00DF63CB /* LNExchangeMethodViewController.h */,
-				7608154720C67B6A00DF63CB /* LNExchangeMethodViewController.m */,
-				7608154520C67B6A00DF63CB /* LNExchangeMethodViewController.xib */,
-			);
-			path = "动态交换两个方法";
 			sourceTree = "<group>";
 		};
 		7608154D20C67B6A00DF63CB /* Model */ = {
@@ -386,7 +376,7 @@
 				7608156C20C67B6A00DF63CB /* LNOperateBtn.m */,
 				76C730F621017E1700409A63 /* LNTextfield */,
 				76C730FB21017E1700409A63 /* Runtime字典转模型KVC实现 */,
-				76C730FE21017FCC00409A63 /* 动态交换两个方法 */,
+				76221ACD212C114A008A6B23 /* 动态交换两个方法实现 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -405,6 +395,25 @@
 				7608158C20C67D0300DF63CB /* LNBaseViewController.m */,
 			);
 			path = "基类";
+			sourceTree = "<group>";
+		};
+		76221AC7212C1131008A6B23 /* 动态交换两个方法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				76221AC8212C1131008A6B23 /* LNExchangeMethodViewController.h */,
+				76221ACA212C1131008A6B23 /* LNExchangeMethodViewController.m */,
+				76221AC9212C1131008A6B23 /* LNExchangeMethodViewController.xib */,
+			);
+			path = "动态交换两个方法实现";
+			sourceTree = "<group>";
+		};
+		76221ACD212C114A008A6B23 /* 动态交换两个方法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				76221ACF212C114A008A6B23 /* UIImage+Image.h */,
+				76221ACE212C114A008A6B23 /* UIImage+Image.m */,
+			);
+			path = "动态交换两个方法实现";
 			sourceTree = "<group>";
 		};
 		763FDB581E7D2F40004C7A7E = {
@@ -606,15 +615,6 @@
 			path = "Runtime字典转模型KVC实现";
 			sourceTree = "<group>";
 		};
-		76C730FE21017FCC00409A63 /* 动态交换两个方法 */ = {
-			isa = PBXGroup;
-			children = (
-				7608154820C67B6A00DF63CB /* UIImage+Image.h */,
-				7608154320C67B6A00DF63CB /* UIImage+Image.m */,
-			);
-			path = "动态交换两个方法";
-			sourceTree = "<group>";
-		};
 		76C730FF210186FE00409A63 /* 消息机制 */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,7 +759,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7608157B20C67B6A00DF63CB /* LNExchangeMethodViewController.xib in Resources */,
+				76221ACB212C1131008A6B23 /* LNExchangeMethodViewController.xib in Resources */,
 				7608152820C67A3F00DF63CB /* SVProgressHUD.bundle in Resources */,
 				763FDC201E7D5CB9004C7A7E /* status3.plist in Resources */,
 				763FDB741E7D2F40004C7A7E /* LaunchScreen.storyboard in Resources */,
@@ -796,14 +796,13 @@
 				7608158E20C67D0300DF63CB /* LNBaseViewController.m in Sources */,
 				7608158220C67B6A00DF63CB /* LNPerson.m in Sources */,
 				7608158920C67B6A00DF63CB /* LNOperateBtn.m in Sources */,
-				7608157A20C67B6A00DF63CB /* UIImage+Image.m in Sources */,
 				7608152720C67A3F00DF63CB /* SVProgressHUD.m in Sources */,
 				7608152620C67A3F00DF63CB /* SVRadialGradientLayer.m in Sources */,
 				763FDBD11E7D3002004C7A7E /* LNRightViewController.m in Sources */,
 				76C731102101872E00409A63 /* UIViewController+Example.m in Sources */,
 				76C730FC21017E1700409A63 /* UITextField+TextField.m in Sources */,
-				7608157C20C67B6A00DF63CB /* LNExchangeMethodViewController.m in Sources */,
 				7608158320C67B6A00DF63CB /* Array.m in Sources */,
+				76221ACC212C1131008A6B23 /* LNExchangeMethodViewController.m in Sources */,
 				76C7310B210186FF00409A63 /* RuntimeDictViewController.m in Sources */,
 				7608157220C67B6A00DF63CB /* LNAddMethodsViewController.m in Sources */,
 				7608158020C67B6A00DF63CB /* NSObject+Model.m in Sources */,
@@ -813,6 +812,7 @@
 				7608157520C67B6A00DF63CB /* LNStudent.m in Sources */,
 				7608157E20C67B6A00DF63CB /* NSObject+Property.m in Sources */,
 				7608158820C67B6A00DF63CB /* User.m in Sources */,
+				76221AD0212C114A008A6B23 /* UIImage+Image.m in Sources */,
 				763FDBE51E7D3D8E004C7A7E /* LNMainViewController.m in Sources */,
 				7608152A20C67A3F00DF63CB /* SVProgressAnimatedView.m in Sources */,
 				7608157120C67B6A00DF63CB /* LNAddAttributesViewController.m in Sources */,
