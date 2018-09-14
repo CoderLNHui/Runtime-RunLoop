@@ -21,8 +21,10 @@
 
 - (UIImageView *)imageV {
     if (!_imageV) {
-        _imageV = [[UIImageView alloc] initWithFrame:CGRectMake(kScreenWidth/2 -120, kScreenHeight/2 - 100, 240, 260)];
-        _imageV.image = [UIImage imageNamed:@"CoderLN"];
+        _imageV = [[UIImageView alloc] init];
+        _imageV.frame = CGRectMake(0, 0, 300, 400);
+        _imageV.center = self.view.center;
+        _imageV.image = [UIImage imageNamed:@"CoderLN300x400"];
         _imageV.layer.cornerRadius = 10;
         _imageV.layer.masksToBounds = YES;
         _imageV.backgroundColor = [UIColor redColor];
