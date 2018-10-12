@@ -1,8 +1,8 @@
 /*
  * File:  LNBaseViewController.m
  *
- * Public - CoderLN / https://githubidea.github.io / https://github.com/CoderLN
- * 🏃🏻‍♂️ ◕该模块将系统化学习，后续替换、补充文章内容 ~
+ * Public、简书 - 不知名开发者 / https://github.com/CoderLN
+ * 该模块将系统化学习，后续「替换、补充文章内容 或 新增文章」
  *
  *【基类】
  */
@@ -22,9 +22,9 @@
 - (UIImageView *)imageV {
     if (!_imageV) {
         _imageV = [[UIImageView alloc] init];
-        _imageV.frame = CGRectMake(0, 0, 300, 400);
+        _imageV.bounds = CGRectMake(0, 0, 310, 450);
         _imageV.center = self.view.center;
-        _imageV.image = [UIImage imageNamed:@"CoderLN300x400"];
+        _imageV.image = [UIImage imageNamed:@"不知名开发者"];
         _imageV.layer.cornerRadius = 10;
         _imageV.layer.masksToBounds = YES;
         _imageV.backgroundColor = [UIColor redColor];

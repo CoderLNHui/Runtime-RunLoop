@@ -1,8 +1,8 @@
 /*
  * File:  LNLeftViewController.m
  *
- * Public - CoderLN / https://githubidea.github.io / https://github.com/CoderLN
- * 🏃🏻‍♂️ ◕该模块将系统化学习，后续替换、补充文章内容 ~
+ * Public、简书 - 不知名开发者 / https://github.com/CoderLN
+ * 该模块将系统化学习，后续「替换、补充文章内容 或 新增文章」
  *
  *【左侧菜单】
  */
@@ -51,7 +51,7 @@
 
     _dataArray = @[
                    @"我是左侧菜单",
-                   @"OC -> runtime",
+                   @"OC_runtime",
                    @"1、字典转模型",// case 2
                    @"2、消息机制",// case 3
                    @"3、动态交换两个方法实现",// case 4
@@ -122,8 +122,6 @@
     }
     // 调用pushFrontViewController进行页面切换
     [revealVC pushFrontViewController:viewController animated:YES];
-    
-   
 }
 @end
 

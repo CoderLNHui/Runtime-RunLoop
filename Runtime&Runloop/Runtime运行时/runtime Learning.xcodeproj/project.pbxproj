@@ -247,7 +247,6 @@
 		7608152C20C67B6A00DF63CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7608158B20C67D0300DF63CB /* 基类 */,
 				76C730FF210186FE00409A63 /* 消息机制 */,
 				7608153020C67B6A00DF63CB /* 动态添加方法 */,
 				7608152D20C67B6A00DF63CB /* 动态添加属性 */,
@@ -577,6 +576,7 @@
 			isa = PBXGroup;
 			children = (
 				763FDBC31E7D3002004C7A7E /* RootVC */,
+				7608158B20C67D0300DF63CB /* 基类 */,
 				76C7310D2101872E00409A63 /* 交换dealloc方法实现 */,
 			);
 			path = Tool;
