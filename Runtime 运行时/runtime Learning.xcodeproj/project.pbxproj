@@ -13,7 +13,6 @@
 		768281AC217E25D600CC152A /* LNRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768281A6217E25D600CC152A /* LNRunLoopViewController.m */; };
 		768281AD217E25D600CC152A /* LNRunLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768281A7217E25D600CC152A /* LNRunLoopViewController.xib */; };
 		768281B1217E2B4A00CC152A /* LNRunloopFixedTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768281B0217E2B4900CC152A /* LNRunloopFixedTaskViewController.xib */; };
-		76B35AEF217D80920072040B /* 不知名开发者.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B35A81217D80910072040B /* 不知名开发者.png */; };
 		76B35AF0217D80920072040B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35A82217D80910072040B /* main.m */; };
 		76B35AF1217D80920072040B /* status1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B35A83217D80910072040B /* status1.plist */; };
 		76B35AF2217D80920072040B /* status3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B35A84217D80910072040B /* status3.plist */; };
@@ -87,7 +86,6 @@
 		768281A8217E25D600CC152A /* LNRunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRunLoopViewController.h; sourceTree = "<group>"; };
 		768281B0217E2B4900CC152A /* LNRunloopFixedTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNRunloopFixedTaskViewController.xib; sourceTree = "<group>"; };
 		76B35A80217D80910072040B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		76B35A81217D80910072040B /* 不知名开发者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不知名开发者.png"; sourceTree = "<group>"; };
 		76B35A82217D80910072040B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76B35A83217D80910072040B /* status1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status1.plist; sourceTree = "<group>"; };
 		76B35A84217D80910072040B /* status3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status3.plist; sourceTree = "<group>"; };
@@ -268,7 +266,6 @@
 				76B35A83217D80910072040B /* status1.plist */,
 				76B35A87217D80910072040B /* status2.plist */,
 				76B35A84217D80910072040B /* status3.plist */,
-				76B35A81217D80910072040B /* 不知名开发者.png */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -762,7 +759,6 @@
 				76B35AF1217D80920072040B /* status1.plist in Resources */,
 				768281B1217E2B4A00CC152A /* LNRunloopFixedTaskViewController.xib in Resources */,
 				76B35B15217D80920072040B /* Assets.xcassets in Resources */,
-				76B35AEF217D80920072040B /* 不知名开发者.png in Resources */,
 				76B35B61217D81000072040B /* RuntimeDictViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
