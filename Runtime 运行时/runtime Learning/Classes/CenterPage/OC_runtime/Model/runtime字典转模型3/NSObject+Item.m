@@ -11,7 +11,7 @@
 
 @implementation NSObject (Item)
 
-// 思路：利用runtime 遍历模型中所有属性，根据模型中属性去字典中取出对应的value给模型属性赋值
+// 思路:利用runtime 遍历模型中所有属性,根据模型中属性去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict3:(NSDictionary *)dict
 {
     // 1.创建对应的对象
@@ -25,7 +25,7 @@
     
     // 遍历所有成员变量
     for (int i = 0; i < count; i++) {
-        // 根据角标，从数组取出对应的成员变量（Ivar：成员变量,以下划线开头）
+        // 根据角标,从数组取出对应的成员变量（Ivar:成员变量,以下划线开头）
         Ivar ivar = ivarList[i];
         
         // 获取成员变量名字
@@ -41,14 +41,14 @@
         //--------------------------- <#我是分割线#> ------------------------------//
         //
         
-        // 三级转换：NSArray中也是字典，把数组中的字典转换成模型.
+        // 三级转换:NSArray中也是字典,把数组中的字典转换成模型.
         // 判断值是否是数组
         if ([value isKindOfClass:[NSArray class]]) {
             // 判断对应类有没有实现字典数组转模型数组的协议
-            // arrayContainModelClass 提供一个协议，只要遵守这个协议的类，都能把数组中的字典转模型
+            // arrayContainModelClass 提供一个协议,只要遵守这个协议的类,都能把数组中的字典转模型
             if ([self respondsToSelector:@selector(arrayContainModelClass)]) {
                 
-                // 转换成id类型，就能调用任何对象的方法
+                // 转换成id类型,就能调用任何对象的方法
                 id idSelf = self;
                 
                 // 获取数组中字典对应的模型
@@ -57,7 +57,7 @@
                 // 生成模型
                 Class classModel = NSClassFromString(type);
                 NSMutableArray *arrM = [NSMutableArray array];
-                // 遍历字典数组，生成模型数组
+                // 遍历字典数组,生成模型数组
                 for (NSDictionary *dict in value) {
                     // 字典转模型
                     id model =  [classModel modelWithDict3:dict];
@@ -69,7 +69,7 @@
             }
         }
         
-        // 如果模型属性数量大于字典键值对数理，模型属性会被赋值为nil,而报错
+        // 如果模型属性数量大于字典键值对数理,模型属性会被赋值为nil,而报错
         if (value) {
             // 给模型中属性赋值
             [objc setValue:value forKey:key];

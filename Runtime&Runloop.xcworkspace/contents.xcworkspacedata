@@ -349,13 +349,13 @@
                      location = "group:&#x5e38;&#x9a7b;&#x7ebf;&#x7a0b;"
                      name = "&#x5e38;&#x9a7b;&#x7ebf;&#x7a0b;">
                      <FileRef
+                        location = "group:LNThreadPersistViewController.h">
+                     </FileRef>
+                     <FileRef
                         location = "group:LNThreadPersistViewController.m">
                      </FileRef>
                      <FileRef
                         location = "group:LNThreadPersistViewController.xib">
-                     </FileRef>
-                     <FileRef
-                        location = "group:LNThreadPersistViewController.h">
                      </FileRef>
                   </Group>
                   <Group

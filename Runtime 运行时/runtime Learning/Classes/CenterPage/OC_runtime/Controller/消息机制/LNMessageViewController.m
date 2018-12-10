@@ -24,13 +24,13 @@
 }
 
 
-//--------------------------- Runtime(发送消息，调用私有方法) ------------------------------//
+//--------------------------- Runtime(发送消息,调用私有方法) ------------------------------//
 //
 
 #pragma mark - 调用私有方法
 - (void)msgSend
 {
-    // 方法一：
+    // 方法一:
     //id objc = [NSObject alloc];
     LNPerson *person = objc_msgSend(objc_getClass("LNPerson"), sel_registerName("alloc"));
     
@@ -42,18 +42,10 @@
     //[objc run:10];
     objc_msgSend(person,@selector(eat)); // 无参
     objc_msgSend(person,@selector(run:),10); // 有残
-
 }
-/**
- 注解：
-    // 用最底层写
-    objc_getClass(const char *name) 获取当前类
-    sel_registerName(const char *str) 注册个方法编号
-    objc_msgSend(id self：谁发送消息, SEL op：送什么消息, ...)
-    让LNPerson这个类对象发送了一个alloc消息，返回一个分配好的内存对象给你，再发送一个消息初始化.
- */
+ 
 
-// 方法二：
+// 方法二:
 #pragma mark - 也许下面这种好理解一点
 - (void)test
 {
@@ -64,6 +56,19 @@
     objc = objc_msgSend(objc, @selector(eat));
     
 }
+
+
+//----------------------- <#<--- 不知名开发者 --->#> ------------------------//
+//
+/**
+ 注解:
+ // 用最底层写
+ objc_getClass(const char *name) 获取当前类
+ sel_registerName(const char *str) 注册个方法编号
+ objc_msgSend(id self:谁发送消息, SEL op:送什么消息, ...)
+ 让LNPerson这个类对象发送了一个alloc消息,返回一个分配好的内存对象给你,再发送一个消息初始化.
+ */
+
 
 
 #pragma mark - 子类可重写实现

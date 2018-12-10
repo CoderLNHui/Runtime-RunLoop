@@ -69,7 +69,7 @@
 }
 
 
-#pragma mark - 抽取方法，子类可重写实现
+#pragma mark - 抽取方法,子类可重写实现
 -(NSString *)controllerTitle
 {
     return @"学习分解";// 默认标题

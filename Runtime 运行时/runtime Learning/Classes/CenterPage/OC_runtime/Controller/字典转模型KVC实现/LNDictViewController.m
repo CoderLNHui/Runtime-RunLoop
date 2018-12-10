@@ -77,17 +77,17 @@
 
 /**
  问题2:模型中嵌套模型
-    如果模型中带有模型型，setValuesForKeysWithDictionary 不能用。
+    如果模型中带有模型型,setValuesForKeysWithDictionary 不能用;
  
- 解决：思路 - 拿到每一个模型属性，去字典中取出对应的值，给模型赋值（提醒：从字典中取值,不一定要全部取出来）。
- 建议使用：MJExtension 字典转模型 和 Runtime（根据模型中属性，去字典中取出对应的 value 给模型属性赋值）
+ 解决:思路 - 拿到每一个模型属性,去字典中取出对应的值,给模型赋值（提醒:从字典中取值,不一定要全部取出来）;
+ 建议使用:MJExtension 字典转模型 和 Runtime（根据模型中属性,去字典中取出对应的 value 给模型属性赋值）
  */
 
 
 /**
  3、KVC实现原理
      1、[item setValue:@"不知名开发者" forKey:@"name"];
-        1.首先去模型中查找该对应的key值有没有set方法，若有就会自动调用set方法进行赋值 [self setName:@"不知名开发者"]。
+        1.首先去模型中查找该对应的key值有没有set方法,若有就会自动调用set方法进行赋值 [self setName:@"不知名开发者"];
         2.如果没有set方法,那么它就判断有没有key相同名称并且带有下划线的成员变量,如果就就给该属性赋值 _name = value.
         3.如果没有带有下划线的成员变量,那么它就会查看有没有跟key值相同名称的属性,如果有就给该属性赋值 name = value.
         4.如果还找不到,就会直接报找不到的错误 ('setValue:forUndefinedKey`).

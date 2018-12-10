@@ -4,7 +4,7 @@
  *
  * 各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」.
  *
- * 选择根控制器
+ * 选择根控制器 
  */
 
 #import "LNRootVC.h"
@@ -26,7 +26,7 @@
     // 右侧菜单
     LNRightViewController *rightVC = [[LNRightViewController alloc] init];
     
-    // 设置左侧VC 和 主显示VC，及右侧VC(可选视图)
+    // 设置左侧VC 和 主显示VC,及右侧VC(可选视图)
     SWRevealViewController *revealVC = [[SWRevealViewController alloc] initWithRearViewController:leftVC frontViewController:mainVC];
     revealVC.rightViewController = rightVC;
     

@@ -11,7 +11,7 @@
 
 @implementation LNOperateBtn
 
-// 添加子控件，初始化子控件一次性设置
+// 添加子控件,初始化子控件一次性设置
 - (instancetype)initWithFrame:(CGRect)frame withBtnTitle:(NSString *)btnTitle
 {
     if (self = [super initWithFrame:frame]) {

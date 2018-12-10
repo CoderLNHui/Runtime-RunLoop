@@ -20,7 +20,7 @@
 
 - (void)setName:(NSString *)name
 {
-    // 将某个值跟某个对象关联起来，将某个值存储到某个对象中
+    // 将某个值跟某个对象关联起来,将某个值存储到某个对象中
     objc_setAssociatedObject(self, @"name", name, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     NSLog(@"name---->%p",name);
 }
@@ -38,5 +38,12 @@
     NSLog(@"height---->%p",height);
 }
 
+//----------------------- <#<--- 不知名开发者 --->#> ------------------------//
+//
+/**
+ 注解:
+ 将某个值跟某个对象关联起来
+ objc_setAssociatedObject(<#id  _Nonnull object#>:给哪个对象添加属性, <#const void * _Nonnull key#>:属性名称, <#id  _Nullable value#>:属性值, <#objc_AssociationPolicy policy#>:保存策略)
+ */
 
 @end

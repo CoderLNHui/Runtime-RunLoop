@@ -18,8 +18,4 @@
 @end
 
 
-// NOTE：抽取注解
-/**
- objc_setAssociatedObject(<#id  _Nonnull object#>：给哪个对象添加属性, <#const void * _Nonnull key#>：属性名称, <#id  _Nullable value#>：属性值, <#objc_AssociationPolicy policy#>：保存策略)
- */
-
+ 

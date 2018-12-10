@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
     
-    // 默认person，没有实现run:方法，可以通过performSelector调用，但是会报错。
+    // 默认person,没有实现run:方法,可以通过performSelector调用,但是会报错;
     // 动态添加方法就不会报错
     Person *p = [[Person alloc] init];
     

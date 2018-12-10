@@ -4,7 +4,7 @@
  *
  * 各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」.
  *
- * Runtime 交换方法，添加属性；textField.placeholderColor
+ * Runtime 交换方法,添加属性；textField.placeholderColor
  * 更多好用工具类,关注我GitHub -> Tools
  */
 
@@ -21,7 +21,7 @@
 
 
 /*
- * runtime交换方法(修改UITextField的占位文字，且设置文字和文字颜色是无序的)
+ * runtime交换方法(修改UITextField的占位文字,且设置文字和文字颜色是无序的)
  * @param placeholder       占位文字
  */
 - (void)setLN_Placeholder:(NSString *)placeholder;

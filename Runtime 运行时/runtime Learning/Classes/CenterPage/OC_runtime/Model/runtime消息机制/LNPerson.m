@@ -17,7 +17,7 @@
 
 - (void)run:(NSInteger)metre
 {
-    NSLog(@"小刘，今天跑了%ld米",metre);
+    NSLog(@"小刘,今天跑了%ld米",metre);
 }
 
 @end

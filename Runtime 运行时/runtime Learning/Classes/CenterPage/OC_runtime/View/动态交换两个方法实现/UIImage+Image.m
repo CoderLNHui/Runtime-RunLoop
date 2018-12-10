@@ -29,9 +29,9 @@
 }
 
 /**
- 注解：
-    不能在分类中重写系统方法imageNamed，因为会把系统的功能给覆盖掉，而且分类中不能调用super
-    所以第二步，我们要 自己实现一个带有扩展功能的方法.
+ 注解:
+    不能在分类中重写系统方法imageNamed,因为会把系统的功能给覆盖掉,而且分类中不能调用super
+    所以第二步,我们要 自己实现一个带有扩展功能的方法.
  + (UIImage *)imageNamed:(NSString *)name
  {
  
@@ -40,8 +40,8 @@
 
 
 /**
- 作用：把类加载进内存的时候调用,只会调用一次
- 调用：方法应先交换，再去调用
+ 作用:把类加载进内存的时候调用,只会调用一次
+ 调用:方法应先交换,再去调用
  */
 + (void)load
 {
@@ -50,8 +50,20 @@
     // 2.获取 ln_imageNamed方法地址
     Method ln_imageNamedMethod = class_getClassMethod(self, @selector(ln_imageNamed:));
     
-    // 3.交换方法地址，相当于交换实现方式;「method_exchangeImplementations 交换两个方法的实现」
+    // 3.交换方法地址,相当于交换实现方式;「method_exchangeImplementations 交换两个方法的实现」
     method_exchangeImplementations(imageNamedMethod, ln_imageNamedMethod);
 }
- 
+
+
+//----------------------- <#<--- 不知名开发者 --->#> ------------------------//
+//
+/**
+ 注解:
+ //获取某个类的方法地址
+ class_getClassMethod(Class  _Nullable __unsafe_unretained cls:获取哪个类方法, SEL  _Nonnull name:哪个方法)
+ //交换方法实现
+ method_exchangeImplementations(Method1,Method2);
+ */
+
+
 @end

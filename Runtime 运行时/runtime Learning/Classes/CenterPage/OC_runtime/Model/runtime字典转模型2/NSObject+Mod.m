@@ -10,7 +10,7 @@
 #import <objc/message.h>
 @implementation NSObject (Mod)
 
-// 思路：利用runtime 遍历模型中所有属性，根据模型中属性去字典中取出对应的value给模型属性赋值
+// 思路:利用runtime 遍历模型中所有属性,根据模型中属性去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict2:(NSDictionary *)dict
 {
     // 1.创建对应的对象
@@ -24,7 +24,7 @@
     
     // 遍历所有成员变量
     for (int i = 0; i < count; i++) {
-        // 根据角标，从数组取出对应的成员变量（Ivar：成员变量,以下划线开头）
+        // 根据角标,从数组取出对应的成员变量（Ivar:成员变量,以下划线开头）
         Ivar ivar = ivarList[i];
         
         // 获取成员变量名字
@@ -42,7 +42,7 @@
         // 根据成员属性名去字典中查找对应的value
         id value = dict[key];
         
-        // 二级转换：如果字典中还有字典，也需要把对应的字典转换成模型
+        // 二级转换:如果字典中还有字典,也需要把对应的字典转换成模型
         // 判断下value是否是字典,并且是自定义对象才需要转换
         if ([value isKindOfClass:[NSDictionary class]] && ![ivarType hasPrefix:@"NS"]) {
             

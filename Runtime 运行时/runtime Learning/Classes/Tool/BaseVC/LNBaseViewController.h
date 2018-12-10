@@ -12,7 +12,7 @@
 
 @interface LNBaseViewController : UIViewController
 
-#pragma mark - 抽取方法，子类可重写实现
+#pragma mark - 抽取方法,子类可重写实现
 
 /** 当前Controller的标题 */
 - (NSString *)controllerTitle;

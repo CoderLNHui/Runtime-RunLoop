@@ -52,8 +52,8 @@ static NSString * const CellID = @"CellID";
                    @"不知名开发者-右侧菜单",
                    @"OC_runloop",
                    @"1、基本使用",
-                   @"2、场景：常驻线程",
-                   @"3、场景：固定间隔几秒执行任务",
+                   @"2、场景:常驻线程",
+                   @"3、场景:固定间隔几秒执行任务",
                    ];
 }
 
@@ -80,7 +80,7 @@ static NSString * const CellID = @"CellID";
     UIViewController *viewController;
     switch (indexPath.row) {
         case 0:
-            //演示操作区按钮示例代码, 可以切换成这个类，查看具体效果.
+            //演示操作区按钮示例代码, 可以切换成这个类,查看具体效果.
             viewController = [[LNMainViewController alloc] init];
             break;
         case 2:

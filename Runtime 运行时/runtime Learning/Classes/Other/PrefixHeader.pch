@@ -28,8 +28,8 @@
 
 #pragma mark - runtime
 /**
- 所谓“运行时”其实就是跟“编译时”区分开了。
- 方法的调用是在程序运行的时候才确定的，而不是在编译的时候确定的，所以叫运行时。
+ 所谓“运行时”其实就是跟“编译时”区分开了;
+ 方法的调用是在程序运行的时候才确定的,而不是在编译的时候确定的,所以叫运行时;
  */
 
 
@@ -37,11 +37,22 @@
 
 #pragma mark - runloop
 /**
- 从字面意思看：运行循环、跑圈
- iOS 中通常所说的 RunLoop 指的是 NSRunloop（是Foundation框架），底层是对CFRunloopRef（是CoreFoundation框架下的纯C函数）的一层OC封装。
- 其实它内部就是do-while循环，在这个循环内部不断地处理各种 Sources（Source0非基于端口用户触发事件、Source1基于端口系统事件）事件。
- 通过判断CFRunLoopRunSpecific（具体处理runloop的运行情况）函数的返回值（用result接收返回值）实现循环，如果result返回值不等于（runloop没有停止&&没有结束的条件）则继续循环，相反侧退出。所以可以看成是一个死循环。
- RunLoop只能指定一种Mode启动，在Runloop启动前会判断指定的mode中有没有sources事件，如果当前Mode中没有任何Source事件（至少一种），那么就直接退出RunLoop。
- 换句话就是说，如果没有RunLoop，UIApplicationMain函数执行完毕之后将直接返回，程序一启动然后就结束。
- RunLoop和线程一一对应关系，通过key（线程）Value（线程对应的runloop）值保存到全局字典当中，主线程的RunLoop默认创建并启动，子线程的RunLoop需手动获取且启动。
+ 从字面意思看:运行循环、跑圈
+ iOS 中通常所说的 RunLoop 指的是 NSRunloop（是Foundation框架）,底层是对CFRunloopRef（是CoreFoundation框架下的纯C函数）的一层OC封装;
+ 其实它内部就是do-while循环,在这个循环内部不断地处理各种 Sources（Source0非基于端口用户触发事件、Source1基于端口系统事件）事件;
+ 通过判断CFRunLoopRunSpecific（具体处理runloop的运行情况）函数的返回值（用result接收返回值）实现循环,如果result返回值不等于（runloop没有停止&&没有结束的条件）则继续循环,相反侧退出;所以可以看成是一个死循环;
+ RunLoop只能指定一种Mode启动,在Runloop启动前会判断指定的mode中有没有sources事件,如果当前Mode中没有任何Source事件（至少一种）,那么就直接退出RunLoop;
+ 换句话就是说,如果没有RunLoop,UIApplicationMain函数执行完毕之后将直接返回,程序一启动然后就结束;
+ RunLoop和线程一一对应关系,通过key（线程）Value（线程对应的runloop）值保存到全局字典当中,主线程的RunLoop默认创建并启动,子线程的RunLoop需手动获取且启动;
  */
+
+
+
+
+
+
+
+
+
+
+
