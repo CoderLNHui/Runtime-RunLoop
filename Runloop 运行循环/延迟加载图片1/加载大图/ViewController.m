@@ -1,11 +1,5 @@
-/*
- * ViewController.m
- *
- * 不知名刘先生
- * Public - CoderLN
- */
+// ViewController.m
 
-/**【本Demo为转载】 */
 
 #import "ViewController.h"
 

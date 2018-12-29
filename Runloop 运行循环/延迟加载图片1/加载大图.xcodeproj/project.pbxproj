@@ -101,8 +101,6 @@
 				07111C1D1E278FCA0017CB24 /* AppDelegate.m */,
 				07111C1F1E278FCA0017CB24 /* ViewController.h */,
 				07111C201E278FCA0017CB24 /* ViewController.m */,
-				07111C561E27A9980017CB24 /* spaceship.png */,
-				07111C521E27A76B0017CB24 /* spaceship.jpg */,
 				07111C221E278FCA0017CB24 /* Main.storyboard */,
 				07111C251E278FCA0017CB24 /* Assets.xcassets */,
 				07111C271E278FCA0017CB24 /* LaunchScreen.storyboard */,
@@ -115,6 +113,8 @@
 		07111C191E278FCA0017CB24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07111C561E27A9980017CB24 /* spaceship.png */,
+				07111C521E27A76B0017CB24 /* spaceship.jpg */,
 				07111C1A1E278FCA0017CB24 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -403,7 +403,6 @@
 		07111C441E278FCA0017CB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "加载大图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tanzhouedu.----";
@@ -414,7 +413,6 @@
 		07111C451E278FCA0017CB24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "加载大图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tanzhouedu.----";

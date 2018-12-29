@@ -1,9 +1,5 @@
-/*
- * ViewController.h
- *
- * 不知名刘先生
- * Public - CoderLN
- */
+// ViewController.h
+/**【本Demo为转载】 */
 
 #import <UIKit/UIKit.h>
 

@@ -1,7 +1,4 @@
-/*
- * File:  AppDelegate.m
- * 
- */
+// AppDelegate.m
 
 #import "AppDelegate.h"
 
