@@ -1,19 +1,19 @@
 /*
- * StatusItem.h
+ * StatusItem1.h
  * Public|JShu_不知名开发者 https://github.com/CoderLN
- * Runtime 字典转模型；modelWithDict:
+ * runtime 字典转模型；modelWithDict:
  */
 
 /**
  runtime 字典转模型
-     场景一：字典的 key 和模型的属性不匹配「模型属性数量 大于 字典键值对数」，这种情况处理如下：
+ 场景一：字典的 key 和模型的属性不匹配「模型属性数量 大于 字典键值对数」，这种情况处理如下：
  */
 
 
 #import <Foundation/Foundation.h>
-#import "NSObject+Model.h"
+#import "NSObject+Model1.h"
 
-@interface StatusItem : NSObject
+@interface StatusItem1 : NSObject
 
 //{
 //    int _a; // 私有成员变量

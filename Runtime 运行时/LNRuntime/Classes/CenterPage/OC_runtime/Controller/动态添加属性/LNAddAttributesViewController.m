@@ -18,7 +18,7 @@
 }
 
 
-//--------------------------- Runtime(动态添加属性) ------------------------------//
+//--------------------------- runtime(动态添加属性) ------------------------------//
 //
 - (void)addAttribute
 {
@@ -33,7 +33,7 @@
 #pragma mark - 子类可重写实现
 - (NSString *)controllerTitle
 {
-    return @"Runtime动态添加属性";
+    return @"runtime动态添加属性";
 }
 
 @end

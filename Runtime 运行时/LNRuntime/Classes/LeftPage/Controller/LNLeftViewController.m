@@ -6,7 +6,7 @@
 
 #import "LNLeftViewController.h"
 #import "LNMainViewController.h"
-#import "RuntimeDictViewController.h"
+#import "runtimeDictViewController.h"
 #import "LNMessageViewController.h"
 #import "LNExchangeMethodViewController.h"
 #import "LNAddAttributesViewController.h"
@@ -96,7 +96,7 @@ static NSString * const CellID = @"CellID";
             viewController = [[LNMainViewController alloc] init];
             break;
         case 2:
-            viewController = [[RuntimeDictViewController alloc] init];
+            viewController = [[runtimeDictViewController alloc] init];
             break;
         case 3:
             viewController = [[LNMessageViewController alloc] init];

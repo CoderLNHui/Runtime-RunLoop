@@ -12,14 +12,14 @@
 
 @implementation LNAddMethodsViewController
 
-//--------------------------- Runtime(动态添加方法) ------------------------------//
+//--------------------------- runtime(动态添加方法) ------------------------------//
 //
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    // 默认person，没有实现run:方法，可以通过performSelector调用，但是会报错。
+    // 默认person，没有实现run:方法，可以通过performSelector调用，但是会警告。
     // 动态添加方法就不会报错
     Person *p = [[Person alloc] init];
     
@@ -31,7 +31,7 @@
 #pragma mark - 子类可重写实现
 - (NSString *)controllerTitle
 {
-    return @"Runtime动态添加方法";
+    return @"runtime动态添加方法";
 }
  
 @end

@@ -1,23 +1,24 @@
 /*
- * RuntimeDictViewController.m
+ * runtimeDictViewController.m
  * Public|JShu_不知名开发者 https://github.com/CoderLN
  */
 
 #import "RuntimeDictViewController.h"
-#import "StatusItem.h"
-#import "NSObject+Model.h"
+//
+#import "StatusItem1.h"
+#import "NSObject+Model1.h"
 //
 #import "StatusItem2.h"
-#import "NSObject+Mod.h"
-
+#import "NSObject+Model2.h"
+//
 #import "StatusItem3.h"
-#import "NSObject+Item.h"
+#import "NSObject+Model3.h"
 
-@interface RuntimeDictViewController ()
+@interface runtimeDictViewController ()
 
 @end
 
-@implementation RuntimeDictViewController
+@implementation runtimeDictViewController
 
 - (NSDictionary *)parsingWithFile:(NSString *)str
 {
@@ -34,7 +35,7 @@
 #pragma mark - 场景一：字典的key和模型的属性不匹配「模型属性数量大于字典键值对数」，这种情况处理如下：
 - (IBAction)runtimeBtnClick1:(id)sender
 {
-    StatusItem *item = [StatusItem modelWithDict:[self parsingWithFile:@"status1.plist"]];
+    StatusItem1 *item = [StatusItem1 modelWithDict:[self parsingWithFile:@"status1.plist"]];
     NSLog(@"%@",item);
 }
 
@@ -69,7 +70,7 @@
 #pragma mark - 子类可重写实现
 - (NSString *)controllerTitle
 {
-    return @"Runtime字典转模型三种场景";
+    return @"runtime字典转模型三种场景";
 }
 
 

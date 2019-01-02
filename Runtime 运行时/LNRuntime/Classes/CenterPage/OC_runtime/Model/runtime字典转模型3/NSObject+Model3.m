@@ -1,12 +1,12 @@
 /*
- * NSObject+Item.m
+ * NSObject+Model3.m
  * Public|JShu_不知名开发者 https://github.com/CoderLN
  */
 
-#import "NSObject+Item.h"
+#import "NSObject+Model3.h"
 #import <objc/message.h>
 
-@implementation NSObject (Item)
+@implementation NSObject (Model3)
 
 // 思路：利用runtime 遍历模型中所有属性，根据模型中属性去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict3:(NSDictionary *)dict
@@ -35,10 +35,10 @@
         id value = dict[key];
         
         
-        //--------------------------- <#我是分割线#> ------------------------------//
+        //----------------------- <#<--- 不知名开发者 --->#> ------------------------//
         //
         
-        // 三级转换：NSArray中也是字典，把数组中的字典转换成模型.
+        // runtime字典转模型三级转换：字典->数组->字典；NSArray中也是字典，把数组中的字典转换成模型.
         // 判断值是否是数组
         if ([value isKindOfClass:[NSArray class]]) {
             // 判断对应类有没有实现字典数组转模型数组的协议
@@ -66,7 +66,7 @@
             }
         }
         
-        // 如果模型属性数量大于字典键值对数理，模型属性会被赋值为nil,而报错
+    
         if (value) {
             // 给模型中属性赋值
             [objc setValue:value forKey:key];

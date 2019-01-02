@@ -1,12 +1,12 @@
 /*
- * NSObject+Model.m
+ * NSObject+Model1.m
  * Public|JShu_不知名开发者 https://github.com/CoderLN
  */
 
-#import "NSObject+Model.h"
+#import "NSObject+Model1.h"
 #import <objc/message.h>
 
-@implementation NSObject (Model)
+@implementation NSObject (Model1)
 
 // 思路：利用runtime 遍历模型中所有属性，根据模型中属性去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict:(NSDictionary *)dict
@@ -18,7 +18,7 @@
     // 成员变量个数
     unsigned int count = 0;
     // 获取类中的所有成员变量
-    Ivar *ivarList = class_copyIvarList(self, &count);
+    Ivar * ivarList = class_copyIvarList(self, &count);
 
     // 遍历所有成员变量
     for (int i = 0; i < count; i++) {
@@ -34,8 +34,12 @@
         // 根据成员属性名去字典中查找对应的value
         id value = dict[key];
         
-        //【如果模型属性数量大于字典键值对数理，模型属性会被赋值为nil
-        // 而报错 (could not set nil as the value for the key age.)
+        
+        //----------------------- <#<--- 不知名开发者 --->#> ------------------------//
+        //
+        
+        // runtime字典转模型一级转换：直接是字典转模型
+        // 如果模型属性数量大于字典键值对数理，模型属性会被赋值为nil,而报错 could not set nil as the value for the key age.无法将nil设置为键age的值
         if (value) {
             // 给模型中属性赋值
             [objc setValue:value forKey:key];

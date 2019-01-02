@@ -1,7 +1,7 @@
 /*
  * LNPerson.h
  * Public|JShu_不知名开发者 https://github.com/CoderLN
- * Runtime 消息机制；objc_msgSend(<#id  _Nullable self#>, <#SEL  _Nonnull op, ...#>)
+ * runtime 作用：消息转发
  */
 
 #import <Foundation/Foundation.h>

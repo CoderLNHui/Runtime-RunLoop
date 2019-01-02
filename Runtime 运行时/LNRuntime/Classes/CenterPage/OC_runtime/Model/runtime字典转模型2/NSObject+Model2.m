@@ -1,11 +1,11 @@
 /*
- * NSObject+Mod.m
+ * NSObject+Model2.m
  * Public|JShu_不知名开发者 https://github.com/CoderLN
  */
 
-#import "NSObject+Mod.h"
+#import "NSObject+Model2.h"
 #import <objc/message.h>
-@implementation NSObject (Mod)
+@implementation NSObject (Model2)
 
 // 思路：利用runtime 遍历模型中所有属性，根据模型中属性去字典中取出对应的value给模型属性赋值
 + (instancetype)modelWithDict2:(NSDictionary *)dict
@@ -16,7 +16,7 @@
     // 2.利用runtime给对象中的属性赋值 
     // 成员变量个数
     unsigned int count = 0;
-    // 获取类中的所有成员变量
+    // 获取类中的所有成员变量(以下划线开头)
     Ivar *ivarList = class_copyIvarList(self, &count);
     
     // 遍历所有成员变量
@@ -39,7 +39,10 @@
         // 根据成员属性名去字典中查找对应的value
         id value = dict[key];
         
-        // 二级转换：如果字典中还有字典，也需要把对应的字典转换成模型
+        
+        //----------------------- <#<--- 不知名开发者 --->#> ------------------------//
+        //
+        // runtime字典转模型二级转换：字典->字典；如果字典中还有字典，也需要把对应的字典转换成模型
         // 判断下value是否是字典,并且是自定义对象才需要转换
         if ([value isKindOfClass:[NSDictionary class]] && ![ivarType hasPrefix:@"NS"]) {
             
@@ -52,6 +55,8 @@
                 value = [modelClass modelWithDict2:value];
             }
         }
+        
+        
         
         // 给模型中属性赋值
         if (value) {

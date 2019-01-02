@@ -1,11 +1,11 @@
 /*
- * StatusItem.m
+ * StatusItem1.m
  * Public|JShu_不知名开发者 https://github.com/CoderLN
  */
 
-#import "StatusItem.h"
+#import "StatusItem1.h"
 
-@implementation StatusItem
+@implementation StatusItem1
 
 
 @end

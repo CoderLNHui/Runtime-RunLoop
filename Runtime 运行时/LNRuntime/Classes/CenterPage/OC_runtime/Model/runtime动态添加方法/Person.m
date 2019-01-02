@@ -8,7 +8,7 @@
 
 @implementation Person
 
-//--------------------------- Runtime(动态添加方法) ------------------------------//
+//--------------------------- runtime(动态添加方法) ------------------------------//
 //
 
 // 没有返回值，1个参数
@@ -23,10 +23,15 @@ void LNGO(id self, SEL _cmd, NSNumber *meters) {
     NSLog(@"我走了 %@ 公里才到的家", meters);
 }
 
+- (void)LNGO
+{
+    NSLog(@"我走了 公里才到的家");
+}
+
 
 /**
  调用：只要一个对象调用了一个未实现的方法就会调用这个方法,进行处理
- 作用：动态添加方法,处理未实现
+ 作用：在方法内部动态添加方法,处理未实现
  注解：任何方法默认都有两个隐式参数,self,_cmd（当前方法的方法编号）
  */
 + (BOOL)resolveInstanceMethod:(SEL)sel {
@@ -42,6 +47,8 @@ void LNGO(id self, SEL _cmd, NSNumber *meters) {
     if ([NSStringFromSelector(sel) isEqualToString:@"go:"]) {
         // 给类添加go:走了多远方法
         class_addMethod(self, sel, (IMP)LNGO, "v@:@");
+        //class_addMethod(self, @selector(LNGO), (IMP)LNGO, "V@:");
+        
         return YES;
     }
     
@@ -52,7 +59,15 @@ void LNGO(id self, SEL _cmd, NSNumber *meters) {
 
 
 
-//----------------------- [动态添加方法、动态交换两个方法的实现] ------------------------//
+
+
+
+
+
+
+
+
+//----------------------- [动态添加方法、动态交换方法 的实现] ------------------------//
 // 下面这种方式更好理解一些
 - (void)resolveInstanceMethod
 {

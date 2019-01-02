@@ -37,23 +37,23 @@
 		76B35B60217D81000072040B /* RuntimeDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B26217D81000072040B /* RuntimeDictViewController.m */; };
 		76B35B61217D81000072040B /* RuntimeDictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B35B27217D81000072040B /* RuntimeDictViewController.xib */; };
 		76B35B62217D81000072040B /* LNDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B2B217D81000072040B /* LNDictViewController.m */; };
-		76B35B63217D81000072040B /* LNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B2E217D81000072040B /* LNMessageViewController.m */; };
 		76B35B64217D81000072040B /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B33217D81000072040B /* NSObject+Property.m */; };
-		76B35B65217D81000072040B /* StatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B36217D81000072040B /* StatusItem.m */; };
-		76B35B66217D81000072040B /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B37217D81000072040B /* NSObject+Model.m */; };
+		76B35B65217D81000072040B /* StatusItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B36217D81000072040B /* StatusItem2.m */; };
+		76B35B66217D81000072040B /* NSObject+Model1.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B37217D81000072040B /* NSObject+Model1.m */; };
 		76B35B67217D81000072040B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B3B217D81000072040B /* Person.m */; };
-		76B35B68217D81000072040B /* LNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B3D217D81000072040B /* LNPerson.m */; };
 		76B35B69217D81000072040B /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B41217D81000072040B /* Array.m */; };
-		76B35B6A217D81000072040B /* NSObject+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B43217D81000072040B /* NSObject+Item.m */; };
+		76B35B6A217D81000072040B /* NSObject+Model3.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B43217D81000072040B /* NSObject+Model3.m */; };
 		76B35B6B217D81000072040B /* StatusItem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B45217D81000072040B /* StatusItem3.m */; };
 		76B35B6C217D81000072040B /* StatusItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B47217D81000072040B /* StatusItem2.m */; };
-		76B35B6D217D81000072040B /* NSObject+Mod.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B48217D81000072040B /* NSObject+Mod.m */; };
+		76B35B6D217D81000072040B /* NSObject+Model2.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B48217D81000072040B /* NSObject+Model2.m */; };
 		76B35B6E217D81000072040B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B49217D81000072040B /* User.m */; };
 		76B35B6F217D81000072040B /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B4F217D81000072040B /* UIImage+Image.m */; };
 		76B35B70217D81000072040B /* LNDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B54217D81000072040B /* LNDog.m */; };
 		76B35B71217D81000072040B /* LNStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B55217D81000072040B /* LNStudent.m */; };
 		76B35B72217D81000072040B /* UITextField+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B57217D81000072040B /* UITextField+TextField.m */; };
 		76B35B73217D81000072040B /* LNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B35B5A217D81000072040B /* LNTextField.m */; };
+		76DA090621D9704400994859 /* LNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA090421D9704400994859 /* LNPerson.m */; };
+		76DA090A21D9706900994859 /* LNMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA090821D9706900994859 /* LNMessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		760380E121D9DC7E00C8700F /* LNAutoEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAutoEncode.h; sourceTree = "<group>"; };
+		760380E221D9DC7E00C8700F /* LNAutoEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAutoEncode.m; sourceTree = "<group>"; };
 		763FDB611E7D2F40004C7A7E /* LNRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		763FDB7A1E7D2F40004C7A7E /* LNRuntimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNRuntimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		763FDB851E7D2F40004C7A7E /* LNRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,30 +127,26 @@
 		76B35B28217D81000072040B /* RuntimeDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeDictViewController.h; sourceTree = "<group>"; };
 		76B35B2B217D81000072040B /* LNDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDictViewController.m; sourceTree = "<group>"; };
 		76B35B2C217D81000072040B /* LNDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDictViewController.h; sourceTree = "<group>"; };
-		76B35B2E217D81000072040B /* LNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMessageViewController.m; sourceTree = "<group>"; };
-		76B35B2F217D81000072040B /* LNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMessageViewController.h; sourceTree = "<group>"; };
 		76B35B32217D81000072040B /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		76B35B33217D81000072040B /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
-		76B35B35217D81000072040B /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
-		76B35B36217D81000072040B /* StatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem.m; sourceTree = "<group>"; };
-		76B35B37217D81000072040B /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
-		76B35B38217D81000072040B /* StatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem.h; sourceTree = "<group>"; };
+		76B35B35217D81000072040B /* NSObject+Model1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model1.h"; sourceTree = "<group>"; };
+		76B35B36217D81000072040B /* StatusItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem2.m; sourceTree = "<group>"; };
+		76B35B37217D81000072040B /* NSObject+Model1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model1.m"; sourceTree = "<group>"; };
+		76B35B38217D81000072040B /* StatusItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem1.h; sourceTree = "<group>"; };
 		76B35B3A217D81000072040B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		76B35B3B217D81000072040B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		76B35B3D217D81000072040B /* LNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPerson.m; sourceTree = "<group>"; };
-		76B35B3E217D81000072040B /* LNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPerson.h; sourceTree = "<group>"; };
-		76B35B40217D81000072040B /* NSObject+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Item.h"; sourceTree = "<group>"; };
+		76B35B40217D81000072040B /* NSObject+Model3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model3.h"; sourceTree = "<group>"; };
 		76B35B41217D81000072040B /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
 		76B35B42217D81000072040B /* StatusItem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem3.h; sourceTree = "<group>"; };
-		76B35B43217D81000072040B /* NSObject+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Item.m"; sourceTree = "<group>"; };
+		76B35B43217D81000072040B /* NSObject+Model3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model3.m"; sourceTree = "<group>"; };
 		76B35B44217D81000072040B /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		76B35B45217D81000072040B /* StatusItem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem3.m; sourceTree = "<group>"; };
 		76B35B47217D81000072040B /* StatusItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem2.m; sourceTree = "<group>"; };
-		76B35B48217D81000072040B /* NSObject+Mod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Mod.m"; sourceTree = "<group>"; };
+		76B35B48217D81000072040B /* NSObject+Model2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model2.m"; sourceTree = "<group>"; };
 		76B35B49217D81000072040B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		76B35B4A217D81000072040B /* StatusItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem2.h; sourceTree = "<group>"; };
 		76B35B4B217D81000072040B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		76B35B4C217D81000072040B /* NSObject+Mod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mod.h"; sourceTree = "<group>"; };
+		76B35B4C217D81000072040B /* NSObject+Model2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model2.h"; sourceTree = "<group>"; };
 		76B35B4F217D81000072040B /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		76B35B50217D81000072040B /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		76B35B52217D81000072040B /* LNStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNStudent.h; sourceTree = "<group>"; };
@@ -159,6 +157,10 @@
 		76B35B58217D81000072040B /* LNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTextField.h; sourceTree = "<group>"; };
 		76B35B59217D81000072040B /* UITextField+TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextField.h"; sourceTree = "<group>"; };
 		76B35B5A217D81000072040B /* LNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTextField.m; sourceTree = "<group>"; };
+		76DA090421D9704400994859 /* LNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPerson.m; sourceTree = "<group>"; };
+		76DA090521D9704400994859 /* LNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPerson.h; sourceTree = "<group>"; };
+		76DA090821D9706900994859 /* LNMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMessageViewController.m; sourceTree = "<group>"; };
+		76DA090921D9706900994859 /* LNMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMessageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,7 +423,7 @@
 		76B35B19217D81000072040B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				76B35B2D217D81000072040B /* 消息机制 */,
+				76DA090721D9706900994859 /* 消息转发 */,
 				76B35B1E217D81000072040B /* 动态添加属性 */,
 				76B35B21217D81000072040B /* 动态添加方法 */,
 				76B35B1A217D81000072040B /* 动态交换两个方法实现 */,
@@ -481,6 +483,8 @@
 		76B35B29217D81000072040B /* 实现NSCoding自动归档和解档 */ = {
 			isa = PBXGroup;
 			children = (
+				760380E121D9DC7E00C8700F /* LNAutoEncode.h */,
+				760380E221D9DC7E00C8700F /* LNAutoEncode.m */,
 			);
 			path = "实现NSCoding自动归档和解档";
 			sourceTree = "<group>";
@@ -494,24 +498,15 @@
 			path = "字典转模型KVC实现";
 			sourceTree = "<group>";
 		};
-		76B35B2D217D81000072040B /* 消息机制 */ = {
-			isa = PBXGroup;
-			children = (
-				76B35B2F217D81000072040B /* LNMessageViewController.h */,
-				76B35B2E217D81000072040B /* LNMessageViewController.m */,
-			);
-			path = "消息机制";
-			sourceTree = "<group>";
-		};
 		76B35B30217D81000072040B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				76B35B3C217D81000072040B /* runtime消息机制 */,
-				76B35B39217D81000072040B /* runtime动态添加方法 */,
+				76DA090321D9704400994859 /* runtime消息转发 */,
 				76B35B31217D81000072040B /* runtime动态添加属性 */,
+				76B35B39217D81000072040B /* runtime动态添加方法 */,
 				76B35B34217D81000072040B /* runtime字典转模型1 */,
-				76B35B3F217D81000072040B /* runtime字典转模型3 */,
 				76B35B46217D81000072040B /* runtime字典转模型2 */,
+				76B35B3F217D81000072040B /* runtime字典转模型3 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -528,10 +523,10 @@
 		76B35B34217D81000072040B /* runtime字典转模型1 */ = {
 			isa = PBXGroup;
 			children = (
-				76B35B35217D81000072040B /* NSObject+Model.h */,
-				76B35B37217D81000072040B /* NSObject+Model.m */,
-				76B35B38217D81000072040B /* StatusItem.h */,
-				76B35B36217D81000072040B /* StatusItem.m */,
+				76B35B35217D81000072040B /* NSObject+Model1.h */,
+				76B35B37217D81000072040B /* NSObject+Model1.m */,
+				76B35B38217D81000072040B /* StatusItem1.h */,
+				76B35B36217D81000072040B /* StatusItem2.m */,
 			);
 			path = "runtime字典转模型1";
 			sourceTree = "<group>";
@@ -545,24 +540,15 @@
 			path = "runtime动态添加方法";
 			sourceTree = "<group>";
 		};
-		76B35B3C217D81000072040B /* runtime消息机制 */ = {
-			isa = PBXGroup;
-			children = (
-				76B35B3E217D81000072040B /* LNPerson.h */,
-				76B35B3D217D81000072040B /* LNPerson.m */,
-			);
-			path = "runtime消息机制";
-			sourceTree = "<group>";
-		};
 		76B35B3F217D81000072040B /* runtime字典转模型3 */ = {
 			isa = PBXGroup;
 			children = (
-				76B35B44217D81000072040B /* Array.h */,
-				76B35B41217D81000072040B /* Array.m */,
-				76B35B40217D81000072040B /* NSObject+Item.h */,
-				76B35B43217D81000072040B /* NSObject+Item.m */,
+				76B35B40217D81000072040B /* NSObject+Model3.h */,
+				76B35B43217D81000072040B /* NSObject+Model3.m */,
 				76B35B42217D81000072040B /* StatusItem3.h */,
 				76B35B45217D81000072040B /* StatusItem3.m */,
+				76B35B44217D81000072040B /* Array.h */,
+				76B35B41217D81000072040B /* Array.m */,
 			);
 			path = "runtime字典转模型3";
 			sourceTree = "<group>";
@@ -570,8 +556,8 @@
 		76B35B46217D81000072040B /* runtime字典转模型2 */ = {
 			isa = PBXGroup;
 			children = (
-				76B35B4C217D81000072040B /* NSObject+Mod.h */,
-				76B35B48217D81000072040B /* NSObject+Mod.m */,
+				76B35B4C217D81000072040B /* NSObject+Model2.h */,
+				76B35B48217D81000072040B /* NSObject+Model2.m */,
 				76B35B4A217D81000072040B /* StatusItem2.h */,
 				76B35B47217D81000072040B /* StatusItem2.m */,
 				76B35B4B217D81000072040B /* User.h */,
@@ -643,6 +629,24 @@
 			children = (
 			);
 			path = Swift_Runloop;
+			sourceTree = "<group>";
+		};
+		76DA090321D9704400994859 /* runtime消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				76DA090521D9704400994859 /* LNPerson.h */,
+				76DA090421D9704400994859 /* LNPerson.m */,
+			);
+			path = "runtime消息转发";
+			sourceTree = "<group>";
+		};
+		76DA090721D9706900994859 /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				76DA090821D9706900994859 /* LNMessageViewController.m */,
+				76DA090921D9706900994859 /* LNMessageViewController.h */,
+			);
+			path = "消息转发";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -788,16 +792,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B35B6A217D81000072040B /* NSObject+Item.m in Sources */,
+				76B35B6A217D81000072040B /* NSObject+Model3.m in Sources */,
 				76B35B71217D81000072040B /* LNStudent.m in Sources */,
-				76B35B65217D81000072040B /* StatusItem.m in Sources */,
+				76DA090621D9704400994859 /* LNPerson.m in Sources */,
+				76B35B65217D81000072040B /* StatusItem2.m in Sources */,
 				76B35B6E217D81000072040B /* User.m in Sources */,
-				76B35B66217D81000072040B /* NSObject+Model.m in Sources */,
-				76B35B68217D81000072040B /* LNPerson.m in Sources */,
+				76B35B66217D81000072040B /* NSObject+Model1.m in Sources */,
 				76B35B67217D81000072040B /* Person.m in Sources */,
 				76B35AF3217D80920072040B /* AppDelegate.m in Sources */,
 				76B35B13217D80920072040B /* LNRootVC.m in Sources */,
-				76B35B63217D81000072040B /* LNMessageViewController.m in Sources */,
 				76B35B5D217D81000072040B /* LNExchangeMethodViewController.m in Sources */,
 				76B35B73217D81000072040B /* LNTextField.m in Sources */,
 				76B35B70217D81000072040B /* LNDog.m in Sources */,
@@ -812,6 +815,7 @@
 				76B35AF8217D80920072040B /* LNLeftViewController.m in Sources */,
 				768281A9217E25D600CC152A /* LNThreadPersistViewController.m in Sources */,
 				76B35B5E217D81000072040B /* LNAddAttributesViewController.m in Sources */,
+				76DA090A21D9706900994859 /* LNMessageViewController.m in Sources */,
 				76B35B14217D80920072040B /* LNMainViewController.m in Sources */,
 				76B35B72217D81000072040B /* UITextField+TextField.m in Sources */,
 				76B35B62217D81000072040B /* LNDictViewController.m in Sources */,
@@ -821,7 +825,7 @@
 				768281AC217E25D600CC152A /* LNRunLoopViewController.m in Sources */,
 				76B35B6B217D81000072040B /* StatusItem3.m in Sources */,
 				76B35B6F217D81000072040B /* UIImage+Image.m in Sources */,
-				76B35B6D217D81000072040B /* NSObject+Mod.m in Sources */,
+				76B35B6D217D81000072040B /* NSObject+Model2.m in Sources */,
 				76B35B69217D81000072040B /* Array.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

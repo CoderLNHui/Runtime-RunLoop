@@ -77,7 +77,7 @@
     如果模型中带有模型型，setValuesForKeysWithDictionary 不能用。
  
  解决：思路 - 拿到每一个模型属性，去字典中取出对应的值，给模型赋值（提醒：从字典中取值,不一定要全部取出来）。
- 建议使用：MJExtension 字典转模型 和 Runtime（根据模型中属性，去字典中取出对应的 value 给模型属性赋值）
+ 建议使用：MJExtension 字典转模型 和 runtime（根据模型中属性，去字典中取出对应的 value 给模型属性赋值）
  */
 
 
