@@ -1,6 +1,7 @@
 /*
  * NSObject+Model1.m
- * Public|JShu_不知名开发者 https://github.com/CoderLN
+ * 简/众_不知名开发者 | https://github.com/CoderLN
+ * 
  */
 
 #import "NSObject+Model1.h"
@@ -18,12 +19,12 @@
     // 成员变量个数
     unsigned int count = 0;
     // 获取类中的所有成员变量
-    Ivar * ivarList = class_copyIvarList(self, &count);
+    Ivar * ivars = class_copyIvarList(self, &count);
 
     // 遍历所有成员变量
     for (int i = 0; i < count; i++) {
         // 根据角标，从数组取出对应的成员变量（Ivar：成员变量,以下划线开头）
-        Ivar ivar = ivarList[i];
+        Ivar ivar = ivars[i];
         
         // 获取成员变量名字
         NSString *ivarName = [NSString stringWithUTF8String:ivar_getName(ivar)];
@@ -45,6 +46,8 @@
             [objc setValue:value forKey:key];
         }
     }
+    // 释放ivars
+    free(ivars);
    
     return objc;
 }

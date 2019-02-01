@@ -1,6 +1,7 @@
 /*
  * LNDictViewController.h
- * Public|JShu_不知名开发者 https://github.com/CoderLN
+ * 简/众_不知名开发者 | https://github.com/CoderLN
+ * 
  * KVC 字典转模型；setValuesForKeysWithDictionary:
  */
 

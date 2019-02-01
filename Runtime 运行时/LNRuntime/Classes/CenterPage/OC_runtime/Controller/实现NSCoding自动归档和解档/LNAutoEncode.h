@@ -1,6 +1,7 @@
 /*
  * LNAutoEncode.h
- * Public|JShu_不知名开发者 https://github.com/CoderLN
+ * 简/众_不知名开发者 | https://github.com/CoderLN
+ * 
  * runtime 作用：实现NSCoding的自动归档和解档
  */
 

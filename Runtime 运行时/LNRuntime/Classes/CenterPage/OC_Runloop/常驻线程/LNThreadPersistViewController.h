@@ -1,6 +1,7 @@
 /*
  * LNThreadPersistViewController.h
- * Public|JShu_不知名开发者 https://github.com/CoderLN
+ * 简/众_不知名开发者 | https://github.com/CoderLN
+ * 
  * Runloop场景：常驻线程，让子线程持续存在,也可以切换执行其他任务。
  */
 

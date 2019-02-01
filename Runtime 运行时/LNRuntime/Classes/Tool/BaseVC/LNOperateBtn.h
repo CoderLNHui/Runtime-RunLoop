@@ -1,6 +1,7 @@
 /*
  * LNOperateBtn.h
- * Public|JShu_不知名开发者 https://github.com/CoderLN
+ * 简/众_不知名开发者 | https://github.com/CoderLN
+ * 
  * 自定义控件操作按钮Btn
  */
 
