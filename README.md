@@ -1,7 +1,4 @@
 
-###### < 请自愿留下你的 Star >
-
-
 #### Runtime
 
 - [Runtime 官方文档](https://developer.apple.com/documentation/objectivec/objective_c_runtime#//apple_ref/c/func/class_getName)
@@ -42,8 +39,4 @@
 
 
 #### Run Loops博文推荐（❤️相对较多者）
-
-
-| 作者 | 模块标题 |
-|:-:| :-:|
-|   |   | 
+省略
